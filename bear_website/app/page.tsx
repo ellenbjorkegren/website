@@ -148,6 +148,51 @@ export default function Home() {
         transformOrigin: "center center",
       });
 
+      // ── Product headline: scrubs up as section enters ─────────────────────
+      gsap.fromTo(".product-headline",
+        { y: 80, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: "#product",
+            start: "top 80%",
+            end: "top 20%",
+            scrub: 1.5,
+          },
+        }
+      );
+
+      // ── Product specs: stagger up on enter ────────────────────────────────
+      gsap.fromTo(".product-spec",
+        { y: 30, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          stagger: 0.08,
+          ease: "power2.out",
+          scrollTrigger: {
+            trigger: "#product",
+            start: "top 60%",
+            end: "top 0%",
+            scrub: 1,
+          },
+        }
+      );
+
+      // ── Product image: parallax drift while scrolling through ─────────────
+      gsap.to(".product-img", {
+        y: -60,
+        ease: "none",
+        scrollTrigger: {
+          trigger: "#product",
+          start: "top bottom",
+          end: "bottom top",
+          scrub: 1.2,
+        },
+      });
+
     });
 
     return () => ctx.revert();
@@ -277,52 +322,53 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Product ──────────────────────────────────────────────────────── */}
-      <section id="product" className="py-32 px-8 border-t border-[#ffffff06]">
-        <div className="zoom-in max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
-          {/* Abstract visual */}
-          <div className="group relative aspect-square max-w-[380px] mx-auto cursor-default">
-            <div className="ring-outer-product absolute inset-0 rounded-full border border-[#735a4c] group-hover:border-[#7a715c] transition-colors duration-700" />
-            <div className="ring-inner-product absolute inset-[14%] rounded-full border border-[#7a715c] group-hover:border-[#735a4c] transition-colors duration-700" />
-            <div className="absolute inset-[28%] rounded-full bg-[#2a1f1a] transition-colors duration-700 group-hover:bg-[#2f2318]" />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-4xl font-bold tracking-[0.35em] text-[#735a4c] group-hover:text-[#7a715c] transition-colors duration-700 select-none">
-                BEAR
-              </span>
-            </div>
-            <div className="absolute inset-[20%] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700 bg-[radial-gradient(circle,#ffffff04,transparent)]" />
-          </div>
+      {/* ── Product + Image ──────────────────────────────────────────────── */}
+      <section id="product" className="overflow-hidden">
+        <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] min-h-[700px]">
 
-          {/* Specs */}
-          <div>
-            <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">
+          {/* Text tile — aged canvas tone matching bag color */}
+          <div className="bg-[#cfc4b0] flex flex-col justify-between py-12 px-10 md:px-14 min-h-[500px]">
+            {/* Label top */}
+            <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#2a1f1a]/60">
               The Product
             </span>
-            <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
-              It&apos;s better when it fits.
+
+            {/* Dominant headline — GSAP scrub via product-headline class */}
+            <h2 className="product-headline text-[clamp(3.5rem,6vw,7rem)] font-semibold leading-[1.0] text-[#2a1f1a] my-auto py-8">
+              It&apos;s better<br />when<br />it fits.
             </h2>
-            <p className="anim-up mt-6 text-sm text-[#7a715c] leading-relaxed max-w-sm">
-              Find your perfect fit from the privacy of home.
-            </p>
-            <div className="mt-10">
+
+            {/* Micro specs — GSAP stagger via product-spec class */}
+            <div>
               {specs.map((item) => (
                 <div
                   key={item.title}
-                  className="group/row flex items-start justify-between py-6 border-b border-[#3a2e26] hover:border-[#4a3d33] transition-colors duration-300 cursor-default"
+                  className="product-spec group/row flex items-start justify-between py-4 border-b border-[#2a1f1a]/20 hover:border-[#2a1f1a]/40 transition-colors duration-300 cursor-default"
                 >
-                  <div className="pr-8">
-                    <h3 className="text-sm font-medium transition-colors duration-300 group-hover/row:text-[#eae4d7]">
+                  <div className="pr-6">
+                    <h3 className="text-xs font-medium text-[#2a1f1a] transition-colors duration-300">
                       {item.title}
                     </h3>
-                    <p className="mt-1 text-xs text-[#7a715c] leading-relaxed">{item.desc}</p>
+                    <p className="mt-0.5 text-[11px] text-[#2a1f1a]/70 leading-relaxed">{item.desc}</p>
                   </div>
-                  <span className="shrink-0 text-[#735a4c] text-sm transition-all duration-300 group-hover/row:text-[#7a715c] group-hover/row:translate-x-0.5 mt-0.5">
+                  <span className="shrink-0 text-[#2a1f1a]/60 text-xs transition-all duration-300 group-hover/row:text-[#2a1f1a] group-hover/row:translate-x-0.5 mt-0.5">
                     →
                   </span>
                 </div>
               ))}
             </div>
           </div>
+
+          {/* Image tile — parallax + reveal via GSAP */}
+          <div className="relative min-h-[500px] md:min-h-0 overflow-hidden">
+            <img
+              src="/BEAR_TENNIS_BAG.png"
+              alt="Bear Nordic — tennis bag with condom packet on courtside bench"
+              className="product-img absolute w-full h-full object-cover object-center"
+              style={{ top: "-40px", bottom: "-40px", left: 0, right: 0, height: "calc(100% + 80px)" }}
+            />
+          </div>
+
         </div>
       </section>
 
