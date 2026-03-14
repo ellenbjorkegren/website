@@ -280,11 +280,14 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Center image */}
+          {/* Center video */}
           <div className="flex justify-center items-center py-10 md:py-16">
-            <img
-              src="/CONDOM_GLOSSY.png"
-              alt="Bear Nordic condom"
+            <video
+              src="/CONDOM_SPINNING.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
               className="product-condom-img w-full max-w-md md:max-w-lg object-contain"
             />
           </div>
@@ -420,55 +423,106 @@ export default function Home() {
       </section>
 
       {/* ── Vision & Mission ─────────────────────────────────────────────── */}
-      <section
-        id="vision-mission"
-        className="relative py-40 px-8 border-t border-[#302621]/10 overflow-hidden"
-        style={{
-          backgroundImage: "url('/BEAR_MISSION_BG.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="absolute inset-0 bg-[#2a1f1a]/60" />
-        <div className="relative z-10 max-w-4xl mx-auto">
-          <div className="zoom-in">
-            <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
-              Somewhere along the way, condoms became{" "}
-              <span className="text-[#eae4d7]">the thing people avoided.</span>
-            </p>
-            <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
-              We got tired of it.
-            </p>
+      <section id="vision-mission" className="border-t border-[#302621]/10">
+
+        {/* Two-panel campaign image with BEAR CONFIDENCE overlay */}
+        <div className="relative grid grid-cols-2 min-h-[70vh] overflow-hidden">
+          {/* Top label */}
+          <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20">
+            <p className="text-xs tracking-[0.4em] uppercase text-[#eae4d7]/80">Confident. Reliable. Daring.</p>
           </div>
 
-          <div className="my-24 h-px bg-[#eae4d7]/20" />
-
-          <div className="flex flex-col md:flex-row md:items-start gap-16">
-            <div className="md:w-1/3 shrink-0">
-              <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#eae4d7]/60">Our Vision</span>
-              <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#eae4d7]">
-                Zero shame.<br />Zero excuses.
-              </h2>
-              <p className="anim-up mt-4 text-sm text-[#eae4d7]/60 leading-relaxed">
-                Inspired by Sweden&apos;s <em>nollvisionen</em> — the goal of zero road deaths.
-              </p>
+          {/* Left panel */}
+          <div
+            className="relative"
+            style={{ backgroundImage: "url('/BEAR_CHESS_BAR.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+          >
+            <div className="absolute inset-0 bg-[#2a1f1a]/30" />
+            <div className="absolute bottom-0 left-0 z-10 p-8 md:p-12">
+              <span
+                className="font-bold text-[#eae4d7] leading-none select-none"
+                style={{ fontSize: "clamp(3rem, 10vw, 9rem)", letterSpacing: "-0.02em" }}
+              >
+                BEAR
+              </span>
             </div>
-            <div className="md:w-2/3 space-y-6 pt-1">
-              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                We want condoms to feel as normal as deodorant. You don&apos;t
-                explain deodorant. You don&apos;t hide it. You just use it.
-              </p>
-              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                Not dirty. Not embarrassing.{" "}
-                <span className="text-[#eae4d7]">Just part of the routine.</span>
-              </p>
-              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                The goal? A generation where STDs and unplanned pregnancies are
-                the exception — not the risk you just shrug at.
-              </p>
+          </div>
+
+          {/* Right panel */}
+          <div
+            className="relative"
+            style={{ backgroundImage: "url('/BEAR_TENNIS_PLAYER.png')", backgroundSize: "cover", backgroundPosition: "center top" }}
+          >
+            <div className="absolute inset-0 bg-[#302621]/20" />
+            <div className="absolute bottom-0 right-0 z-10 p-8 md:p-12">
+              <span
+                className="font-bold text-[#eae4d7] leading-none select-none"
+                style={{ fontSize: "clamp(3rem, 10vw, 9rem)", letterSpacing: "-0.02em" }}
+              >
+                CONFIDENCE
+              </span>
             </div>
           </div>
         </div>
+
+        {/* Vision copy */}
+        <div
+          className="relative py-40 px-8 overflow-hidden"
+          style={{
+            backgroundImage: "url('/BEAR_MISSION_BG.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <div className="absolute inset-0 bg-[#2a1f1a]/65" />
+          <div className="relative z-10 max-w-4xl mx-auto">
+            <div className="zoom-in">
+              <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
+                Somewhere along the way, condoms became{" "}
+                <span className="text-[#eae4d7]">the thing people avoided.</span>
+              </p>
+              <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
+                We got tired of it.
+              </p>
+            </div>
+
+            <div className="my-24 h-px bg-[#eae4d7]/20" />
+
+            <div className="flex flex-col md:flex-row md:items-start gap-16">
+              <div className="md:w-1/3 shrink-0">
+                <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#eae4d7]/60">Our Vision</span>
+                <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#eae4d7]">
+                  Zero shame.<br />Zero excuses.
+                </h2>
+                <p className="anim-up mt-4 text-sm text-[#eae4d7]/60 leading-relaxed">
+                  Inspired by Sweden&apos;s <em>nollvisionen</em> — the goal of zero road deaths.
+                </p>
+              </div>
+              <div className="md:w-2/3 space-y-6 pt-1">
+                <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                  We want men to feel completely comfortable and confident — not
+                  just in the moment, but before it. The ritual shouldn&apos;t
+                  break anything. It should feel like part of it.
+                </p>
+                <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                  Bear exists to make protection feel natural. Not clinical, not
+                  awkward, not something you tolerate.{" "}
+                  <span className="text-[#eae4d7]">Something you actually want to use.</span>
+                </p>
+                <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                  We want condoms to feel as normal as deodorant. You don&apos;t
+                  explain deodorant. You don&apos;t hide it. You just use it — because
+                  you care about yourself and the people you&apos;re with.
+                </p>
+                <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                  The goal? A generation where STDs and unplanned pregnancies are
+                  the exception — not the risk you just shrug at.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </section>
 
       {/* ── Founder Story ────────────────────────────────────────────────── */}
