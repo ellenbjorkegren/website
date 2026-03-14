@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const specs = [
   { title: "Ultra-thin latex", desc: "0.05mm. You'll feel the difference." },
-  { title: "Three sizes", desc: "Classic, Fitted, Large. Try at home, find yours, subscribe." },
+  { title: "One universal size", desc: "Designed to fit comfortably. No size anxiety, no compromise." },
   { title: "ISO 4074 certified", desc: "Top-tier quality standards. Non-negotiable." },
 ];
 
@@ -19,7 +19,7 @@ const features = [
   {
     num: "02",
     title: "It actually fits",
-    desc: "Three sizes. Try at home, find yours. A condom that fits properly changes everything — and that's not marketing speak.",
+    desc: "Designed to work for everyone. A condom that fits properly changes everything — and that's not marketing speak.",
   },
   {
     num: "03",
@@ -34,11 +34,37 @@ const qtyOptions = ["12 condoms", "24 condoms", "36 condoms"];
 const basePrices = [12, 20, 28];
 
 const onePacks = [
-  { name: "Tester",   price: "£4",  qty: "3 condoms",  sub: "One of each size",   desc: "Try Classic, Fitted and Large before committing." },
-  { name: "Stash",    price: "£11", qty: "12 condoms", sub: "Your chosen size",    desc: "Stocked up without the subscription." },
-  { name: "Bulk",     price: "£20", qty: "24 condoms", sub: "Your chosen size",    desc: "Best per-unit price for a single order." },
+  { name: "Tester",  price: "£4",  qty: "3 condoms",  desc: "Try before you commit. One of each scenario." },
+  { name: "Stash",   price: "£11", qty: "12 condoms", desc: "Stocked up without the subscription." },
+  { name: "Bulk",    price: "£20", qty: "24 condoms", desc: "Best per-unit price for a single order." },
 ];
 
+const faqs = [
+  {
+    q: "What is your delivery time?",
+    a: "We aim to dispatch all orders within 1–2 business days. Standard delivery takes 3–5 business days. Express options available at checkout.",
+  },
+  {
+    q: "Are Bear Condoms safe?",
+    a: "Yes. All Bear condoms are CE marked and ISO 4074 certified, meeting the highest European safety standards. Every batch is tested before dispatch.",
+  },
+  {
+    q: "How do you quality check your products?",
+    a: "Every batch undergoes electronic pinhole testing and air inflation testing in line with ISO 4074 requirements. We work only with certified manufacturing partners.",
+  },
+  {
+    q: "What type of lubricant is best to use with Bear condoms?",
+    a: "Use water-based or silicone-based lubricants only. Oil-based lubricants (including coconut oil, petroleum jelly, and body lotion) can degrade latex and should never be used with condoms.",
+  },
+  {
+    q: "What are the condom ingredients?",
+    a: "Natural latex, water-based lubricant, and a small amount of cornstarch powder. No spermicide. No parabens.",
+  },
+  {
+    q: "What are the measurements of Bear Condoms?",
+    a: "Width: —\nLength: —\nThickness: 0.05mm",
+  },
+];
 
 export default function Home() {
   useEffect(() => {
@@ -123,22 +149,6 @@ export default function Home() {
         });
       });
 
-      // ── Product visual: rings rotate continuously ──────────────────────────
-      gsap.to(".ring-outer-product", {
-        rotation: 360,
-        duration: 18,
-        repeat: -1,
-        ease: "none",
-        transformOrigin: "center center",
-      });
-      gsap.to(".ring-inner-product", {
-        rotation: -360,
-        duration: 12,
-        repeat: -1,
-        ease: "none",
-        transformOrigin: "center center",
-      });
-
       // ── Hero rings: slow drift ────────────────────────────────────────────
       gsap.to(".ring-hero", {
         rotation: 360,
@@ -205,12 +215,9 @@ export default function Home() {
 
   const [showMemberModal, setShowMemberModal] = useState(false);
   const [showTesterModal, setShowTesterModal] = useState(false);
-  const [testerMode, setTesterMode] = useState<"all" | "same">("all");
-  const [testerSize, setTesterSize] = useState("B4");
-  const [step, setStep] = useState(1);
-  const [selectedSize, setSelectedSize] = useState("");
   const [freqIndex, setFreqIndex] = useState(0);
   const [qtyIndex, setQtyIndex] = useState(0);
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const discount = freqDiscounts[freqIndex];
   const price = Math.round(basePrices[qtyIndex] * (1 - discount / 100));
@@ -219,15 +226,23 @@ export default function Home() {
     <div className="bg-[#302621] text-[#eae4d7] min-h-screen font-sans">
 
       {/* ── Navigation ────────────────────────────────────────────────────── */}
-      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-6 bg-[#302621]/80 backdrop-blur-md border-b border-[#ffffff08]">
-        <span className="text-sm font-semibold tracking-[0.4em] uppercase select-none">
+      <nav className="fixed top-0 left-0 right-0 z-50 flex items-center px-8 py-6 bg-[#302621]/80 backdrop-blur-md border-b border-[#ffffff08]">
+        {/* Left: Bear wordmark */}
+        <span className="text-sm font-semibold tracking-[0.4em] uppercase select-none shrink-0">
           Bear
         </span>
-        <div className="hidden md:flex items-center gap-10 text-xs tracking-[0.25em] uppercase text-[#735a4c]">
-          {["Mission", "Product", "Subscription"].map((label) => (
+
+        {/* Center: nav links */}
+        <div className="absolute left-1/2 -translate-x-1/2 hidden md:flex items-center gap-10 text-xs tracking-[0.25em] uppercase text-[#735a4c]">
+          {[
+            { label: "Our Product",       href: "#product" },
+            { label: "Vision & Mission",  href: "#vision-mission" },
+            { label: "Founder Story",     href: "#founder" },
+            { label: "FAQ",               href: "#faq" },
+          ].map(({ label, href }) => (
             <a
               key={label}
-              href={`#${label.toLowerCase()}`}
+              href={href}
               className="group relative py-1 hover:text-[#eae4d7] transition-colors duration-300"
             >
               {label}
@@ -235,7 +250,9 @@ export default function Home() {
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-4">
+
+        {/* Right: actions */}
+        <div className="ml-auto flex items-center gap-4 shrink-0">
           <button
             onClick={() => setShowMemberModal(true)}
             className="text-xs tracking-[0.2em] uppercase text-[#735a4c] hover:text-[#eae4d7] transition-colors duration-300"
@@ -279,7 +296,7 @@ export default function Home() {
             No shame. No excuses. Just a condom worth choosing.
           </p>
           <a
-            href="#mission"
+            href="#product"
             className="group mt-12 inline-flex items-center gap-3 border border-[#4a3d33] px-9 py-4 text-xs tracking-[0.3em] uppercase hover:border-[#9a8d81] transition-all duration-500"
           >
             See Why
@@ -293,67 +310,18 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Mission ──────────────────────────────────────────────────────── */}
-      <section
-        id="mission"
-        className="relative py-40 px-8 border-t border-[#302621]/10 overflow-hidden"
-        style={{
-          backgroundImage: "url('/BEAR_MISSION_BG.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        {/* Dark overlay so text stays readable */}
-        <div className="absolute inset-0 bg-[#2a1f1a]/60" />
-        <div className="zoom-in max-w-4xl mx-auto relative z-10">
-          <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
-            Somewhere along the way, condoms became{" "}
-            <span className="text-[#eae4d7]">the thing people avoided.</span>
-          </p>
-          <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
-            We got tired of it.
-          </p>
-        </div>
-      </section>
-
-      {/* ── Why ──────────────────────────────────────────────────────────── */}
-      <section className="py-40 px-8">
-        <div className="zoom-in max-w-4xl mx-auto space-y-12">
-          <p className="anim-up text-[clamp(1.1rem,2.5vw,1.5rem)] font-light leading-relaxed text-[#7a715c]">
-            Condoms shouldn&apos;t kill the mood. They shouldn&apos;t be
-            something you negotiate your way out of. And they definitely
-            shouldn&apos;t feel like a compromise.
-          </p>
-          <p className="anim-up text-[clamp(1.5rem,3.5vw,2.5rem)] font-semibold leading-[1.3] text-[#eae4d7]">
-            What if the problem isn&apos;t condoms — it&apos;s that no
-            one&apos;s made them worth choosing?
-          </p>
-          <p className="anim-up text-[clamp(1.1rem,2.5vw,1.5rem)] font-light leading-relaxed text-[#7a715c]">
-            BEAR exists to change that. We&apos;re not here to reinvent the
-            product. We&apos;re here to make people actually want to use it.
-            Starting with fit, because a condom that fits properly changes
-            everything.
-          </p>
-        </div>
-      </section>
-
-      {/* ── Product + Image ──────────────────────────────────────────────── */}
+      {/* ── Product + Words ───────────────────────────────────────────────── */}
       <section id="product" className="overflow-hidden">
         <div className="grid grid-cols-1 md:grid-cols-[2fr_3fr] min-h-[700px]">
 
-          {/* Text tile — aged canvas tone matching bag color */}
+          {/* Text tile */}
           <div className="bg-[#cfc4b0] flex flex-col justify-between py-12 px-10 md:px-14 min-h-[500px]">
-            {/* Label top */}
             <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#2a1f1a]/60">
               The Product
             </span>
-
-            {/* Dominant headline — GSAP scrub via product-headline class */}
             <h2 className="product-headline text-[clamp(3.5rem,6vw,7rem)] font-semibold leading-[1.0] text-[#735a4c] my-auto py-8">
               It&apos;s better<br />when<br />it fits.
             </h2>
-
-            {/* Micro specs — GSAP stagger via product-spec class */}
             <div>
               {specs.map((item) => (
                 <div
@@ -361,14 +329,10 @@ export default function Home() {
                   className="product-spec group/row flex items-start justify-between py-4 border-b border-[#2a1f1a]/20 hover:border-[#2a1f1a]/40 transition-colors duration-300 cursor-default"
                 >
                   <div className="pr-6">
-                    <h3 className="text-xs font-medium text-[#2a1f1a] transition-colors duration-300">
-                      {item.title}
-                    </h3>
+                    <h3 className="text-xs font-medium text-[#2a1f1a]">{item.title}</h3>
                     <p className="mt-0.5 text-[11px] text-[#2a1f1a]/70 leading-relaxed">{item.desc}</p>
                   </div>
-                  <span className="shrink-0 text-[#2a1f1a]/60 text-xs transition-all duration-300 group-hover/row:text-[#2a1f1a] group-hover/row:translate-x-0.5 mt-0.5">
-                    →
-                  </span>
+                  <span className="shrink-0 text-[#2a1f1a]/60 text-xs transition-all duration-300 group-hover/row:text-[#2a1f1a] group-hover/row:translate-x-0.5 mt-0.5">→</span>
                 </div>
               ))}
             </div>
@@ -387,39 +351,6 @@ export default function Home() {
             ))}
           </div>
 
-        </div>
-      </section>
-
-      {/* ── Vision ───────────────────────────────────────────────────────── */}
-      <section className="py-40 px-8 bg-[#eae4d7] border-t border-[#302621]/10">
-        <div className="zoom-in max-w-4xl mx-auto flex flex-col md:flex-row md:items-start gap-16">
-          <div className="md:w-1/3 shrink-0">
-            <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">
-              Our Vision
-            </span>
-            <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#302621]">
-              Zero shame.
-              <br />
-              Zero excuses.
-            </h2>
-            <p className="anim-up mt-4 text-xs text-[#735a4c] leading-relaxed">
-              Inspired by Sweden&apos;s <em>nollvisionen</em> — the goal of zero road deaths.
-            </p>
-          </div>
-          <div className="md:w-2/3 space-y-6 pt-1">
-            <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#735a4c]">
-              We want condoms to feel as normal as deodorant. You don&apos;t
-              explain deodorant. You don&apos;t hide it. You just use it.
-            </p>
-            <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#735a4c]">
-              Not dirty. Not embarrassing.{" "}
-              <span className="text-[#302621]">Just part of the routine.</span>
-            </p>
-            <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#735a4c]">
-              The goal? A generation where STDs and unplanned pregnancies are
-              the exception — not the risk you just shrug at.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -449,81 +380,6 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="mt-16 text-center">
-            <a
-              href="#fit"
-              className="group inline-flex items-center gap-3 border border-[#4a3d33] px-9 py-4 text-xs tracking-[0.3em] uppercase hover:border-[#9a8d81] transition-all duration-500"
-            >
-              Find your perfect fit
-              <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── Test it out ──────────────────────────────────────────────────── */}
-      <section id="fit" className="py-32 px-8 bg-[#eae4d7] border-t border-[#302621]/10">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <span className="text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">Sizing Guide</span>
-            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold text-[#302621]">Find your perfect fit.</h2>
-            <p className="mt-4 text-sm text-[#7a715c] max-w-sm mx-auto leading-relaxed">
-              Two measurements. Thirty seconds. A condom that actually fits.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
-            <div className="space-y-10">
-              {[
-                { num: "01", title: "Measure length", desc: "When erect, measure from the base to the tip along the top side." },
-                { num: "02", title: "Measure girth", desc: "Wrap a flexible tape measure around the widest part of the shaft." },
-                { num: "03", title: "Order a tester", desc: "Get one of each size, try them at home, and subscribe to the one that fits." },
-              ].map((step) => (
-                <div key={step.num} className="flex gap-6">
-                  <span className="text-[10px] tracking-[0.4em] text-[#735a4c] shrink-0 pt-1">{step.num}</span>
-                  <div>
-                    <h3 className="text-sm font-medium text-[#302621]">{step.title}</h3>
-                    <p className="mt-1 text-xs text-[#7a715c] leading-relaxed">{step.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="border border-[#302621]/10">
-              <div className="grid grid-cols-3 border-b border-[#302621]/10">
-                {["Size", "Length", "Girth"].map((h) => (
-                  <div key={h} className="p-4 text-[10px] tracking-[0.3em] uppercase text-[#735a4c] [&:not(:first-child)]:border-l [&:not(:first-child)]:border-[#302621]/10">{h}</div>
-                ))}
-              </div>
-              {[
-                { size: "Fitted",  length: "Up to 16cm", girth: "Up to 11cm" },
-                { size: "Classic", length: "16 – 18cm",  girth: "11 – 12.5cm" },
-                { size: "Large",   length: "18cm+",      girth: "12.5cm+" },
-              ].map((row) => (
-                <div key={row.size} className="grid grid-cols-3 border-b border-[#302621]/10 last:border-b-0">
-                  <div className="p-4 text-sm font-medium text-[#302621]">{row.size}</div>
-                  <div className="p-4 text-xs text-[#7a715c] border-l border-[#302621]/10">{row.length}</div>
-                  <div className="p-4 text-xs text-[#7a715c] border-l border-[#302621]/10">{row.girth}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="mt-16 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button
-              onClick={() => setShowTesterModal(true)}
-              className="group inline-flex items-center gap-3 bg-[#302621] text-[#eae4d7] px-9 py-4 text-xs tracking-[0.3em] uppercase hover:bg-[#3d3028] transition-all duration-300"
-            >
-              Order your test kit
-              <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-            </button>
-            <a
-              href="#subscription"
-              className="group inline-flex items-center gap-3 border border-[#302621]/30 px-9 py-4 text-xs tracking-[0.3em] uppercase text-[#735a4c] hover:border-[#302621] hover:text-[#302621] transition-all duration-300"
-            >
-              Already know your size? Subscribe
-              <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-            </a>
-          </div>
         </div>
       </section>
 
@@ -543,94 +399,49 @@ export default function Home() {
           </div>
 
           <div className="bg-[#eae4d7] text-[#302621] p-10">
-            {step === 1 ? (
-              /* ── Step 1: Size ── */
-              <div className="space-y-8">
-                <div>
-                  <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">Select your size</p>
-                  <div className="flex gap-3">
-                    {["B3", "B4", "B5"].map((size) => (
-                      <button
-                        key={size}
-                        onClick={() => setSelectedSize(size)}
-                        className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
-                          selectedSize === size
-                            ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                            : "border-[#302621]/20 hover:border-[#302621]/60"
-                        }`}
-                      >
-                        {size}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-                <button
-                  onClick={() => { if (selectedSize) setStep(2); }}
-                  className={`w-full py-3.5 text-xs tracking-[0.3em] uppercase border transition-all duration-200 flex items-center justify-center gap-3 ${
-                    selectedSize
-                      ? "border-[#302621] hover:bg-[#302621] hover:text-[#eae4d7]"
-                      : "border-[#302621]/20 text-[#302621]/30 cursor-not-allowed"
-                  }`}
-                >
-                  Choose delivery <span>→</span>
-                </button>
-              </div>
-            ) : (
-              /* ── Step 2: Frequency + Pack size ── */
-              <div className="space-y-8">
-                <button
-                  onClick={() => setStep(1)}
-                  className="flex items-center gap-2 text-[10px] tracking-[0.3em] uppercase text-[#735a4c] hover:text-[#302621] transition-colors duration-200"
-                >
-                  ← {selectedSize}
-                </button>
-
-                <div className="h-px bg-[#302621]/10" />
-
-                <div>
-                  <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">How often</p>
-                  <div className="flex gap-3">
-                    {freqLabels.map((label, i) => (
-                      <button
-                        key={label}
-                        onClick={() => setFreqIndex(i)}
-                        className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
-                          freqIndex === i
-                            ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                            : "border-[#302621]/20 hover:border-[#302621]/60"
-                        }`}
-                      >
-                        {label}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-
-                <div className="h-px bg-[#302621]/10" />
-
-                <div>
-                  <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">Pack size</p>
-                  <div className="flex gap-3">
-                    {qtyOptions.map((qty, i) => (
-                      <button
-                        key={qty}
-                        onClick={() => setQtyIndex(i)}
-                        className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
-                          qtyIndex === i
-                            ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                            : "border-[#302621]/20 hover:border-[#302621]/60"
-                        }`}
-                      >
-                        {qty}
-                      </button>
-                    ))}
-                  </div>
+            <div className="space-y-8">
+              <div>
+                <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">How often</p>
+                <div className="flex gap-3">
+                  {freqLabels.map((label, i) => (
+                    <button
+                      key={label}
+                      onClick={() => setFreqIndex(i)}
+                      className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
+                        freqIndex === i
+                          ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
+                          : "border-[#302621]/20 hover:border-[#302621]/60"
+                      }`}
+                    >
+                      {label}
+                    </button>
+                  ))}
                 </div>
               </div>
-            )}
+
+              <div className="h-px bg-[#302621]/10" />
+
+              <div>
+                <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">Pack size</p>
+                <div className="flex gap-3">
+                  {qtyOptions.map((qty, i) => (
+                    <button
+                      key={qty}
+                      onClick={() => setQtyIndex(i)}
+                      className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
+                        qtyIndex === i
+                          ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
+                          : "border-[#302621]/20 hover:border-[#302621]/60"
+                      }`}
+                    >
+                      {qty}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
           </div>
 
-          {/* Price + CTA */}
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-6">
             <div className="flex items-baseline gap-3 flex-wrap">
               <span className="text-3xl font-semibold">£{price}</span>
@@ -674,11 +485,122 @@ export default function Home() {
                 </div>
                 <div className="my-6 h-px bg-[#302621]/10" />
                 <p className="text-sm font-medium">{pack.qty}</p>
-                <p className="mt-1 text-xs text-[#7a715c]">{pack.sub}</p>
                 <p className="mt-4 text-xs text-[#7a715c] leading-relaxed">{pack.desc}</p>
                 <button className="mt-8 w-full py-3.5 text-[10px] tracking-[0.3em] uppercase border border-[#302621] hover:bg-[#302621] hover:text-[#eae4d7] transition-all duration-300">
                   Order Now
                 </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Vision & Mission ─────────────────────────────────────────────── */}
+      <section
+        id="vision-mission"
+        className="relative py-40 px-8 border-t border-[#302621]/10 overflow-hidden"
+        style={{
+          backgroundImage: "url('/BEAR_MISSION_BG.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="absolute inset-0 bg-[#2a1f1a]/60" />
+        <div className="relative z-10 max-w-4xl mx-auto">
+          {/* Mission */}
+          <div className="zoom-in">
+            <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
+              Somewhere along the way, condoms became{" "}
+              <span className="text-[#eae4d7]">the thing people avoided.</span>
+            </p>
+            <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
+              We got tired of it.
+            </p>
+          </div>
+
+          {/* Divider */}
+          <div className="my-24 h-px bg-[#eae4d7]/20" />
+
+          {/* Vision */}
+          <div className="flex flex-col md:flex-row md:items-start gap-16">
+            <div className="md:w-1/3 shrink-0">
+              <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#eae4d7]/60">
+                Our Vision
+              </span>
+              <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#eae4d7]">
+                Zero shame.<br />Zero excuses.
+              </h2>
+              <p className="anim-up mt-4 text-xs text-[#eae4d7]/60 leading-relaxed">
+                Inspired by Sweden&apos;s <em>nollvisionen</em> — the goal of zero road deaths.
+              </p>
+            </div>
+            <div className="md:w-2/3 space-y-6 pt-1">
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                We want condoms to feel as normal as deodorant. You don&apos;t
+                explain deodorant. You don&apos;t hide it. You just use it.
+              </p>
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                Not dirty. Not embarrassing.{" "}
+                <span className="text-[#eae4d7]">Just part of the routine.</span>
+              </p>
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
+                The goal? A generation where STDs and unplanned pregnancies are
+                the exception — not the risk you just shrug at.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Founder Story ────────────────────────────────────────────────── */}
+      <section id="founder" className="py-40 px-8 border-t border-[#ffffff06]">
+        <div className="max-w-4xl mx-auto">
+          <div className="zoom-in">
+            <span className="anim-up text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">
+              Founder Story
+            </span>
+            <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
+              Built from frustration.<br />
+              <span className="text-[#735a4c]">Driven by conviction.</span>
+            </h2>
+            <div className="mt-16 space-y-6">
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
+                [Founder story coming soon.]
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ──────────────────────────────────────────────────────────── */}
+      <section id="faq" className="py-32 px-8 bg-[#eae4d7] border-t border-[#302621]/10">
+        <div className="max-w-3xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">FAQ</span>
+            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold text-[#302621]">
+              Questions answered.
+            </h2>
+          </div>
+          <div className="divide-y divide-[#302621]/10">
+            {faqs.map((item, i) => (
+              <div key={i} className="py-6">
+                <button
+                  onClick={() => setOpenFaq(openFaq === i ? null : i)}
+                  className="w-full flex items-start justify-between gap-6 text-left group"
+                >
+                  <span className="text-sm font-medium text-[#302621] group-hover:text-[#735a4c] transition-colors duration-200">
+                    {item.q}
+                  </span>
+                  <span className="shrink-0 text-[#735a4c] text-xs mt-0.5 transition-transform duration-300"
+                    style={{ transform: openFaq === i ? "rotate(45deg)" : "rotate(0deg)" }}>
+                    +
+                  </span>
+                </button>
+                {openFaq === i && (
+                  <p className="mt-4 text-sm text-[#7a715c] leading-relaxed whitespace-pre-line">
+                    {item.a}
+                  </p>
+                )}
               </div>
             ))}
           </div>
@@ -742,54 +664,11 @@ export default function Home() {
             >
               Close
             </button>
-
             <span className="text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">Test Kit</span>
             <h3 className="mt-3 text-xl font-semibold">£4 · 3 condoms</h3>
-            <p className="mt-2 text-xs text-[#7a715c] leading-relaxed">Try before you commit. Find out what fits.</p>
-
+            <p className="mt-2 text-xs text-[#7a715c] leading-relaxed">Try before you commit. Find out what works.</p>
             <div className="my-7 h-px bg-[#302621]/10" />
-
-            <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-4">What would you like?</p>
-            <div className="flex gap-3 mb-6">
-              {(["all", "same"] as const).map((mode) => (
-                <button
-                  key={mode}
-                  onClick={() => setTesterMode(mode)}
-                  className={`flex-1 py-3 text-xs tracking-[0.2em] uppercase border transition-all duration-200 ${
-                    testerMode === mode
-                      ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                      : "border-[#302621]/20 hover:border-[#302621]/60"
-                  }`}
-                >
-                  {mode === "all" ? "All sizes" : "3 of one size"}
-                </button>
-              ))}
-            </div>
-
-            {testerMode === "all" ? (
-              <p className="text-xs text-[#7a715c] leading-relaxed">One B3, one B4, one B5 — try them all and find your fit.</p>
-            ) : (
-              <div>
-                <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-3">Choose size</p>
-                <div className="flex gap-3">
-                  {["B3", "B4", "B5"].map((size) => (
-                    <button
-                      key={size}
-                      onClick={() => setTesterSize(size)}
-                      className={`flex-1 py-3 text-xs tracking-[0.3em] uppercase border transition-all duration-200 ${
-                        testerSize === size
-                          ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                          : "border-[#302621]/20 hover:border-[#302621]/60"
-                      }`}
-                    >
-                      {size}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
-            <button className="mt-8 w-full py-3.5 text-[10px] tracking-[0.3em] uppercase bg-[#302621] text-[#eae4d7] hover:bg-[#3d3028] transition-all duration-300">
+            <button className="mt-4 w-full py-3.5 text-[10px] tracking-[0.3em] uppercase bg-[#302621] text-[#eae4d7] hover:bg-[#3d3028] transition-all duration-300">
               Order Now · £4
             </button>
           </div>
@@ -813,17 +692,10 @@ export default function Home() {
             >
               Close
             </button>
-
             <span className="text-[10px] tracking-[0.5em] uppercase text-[#735a4c]">Your subscription</span>
             <h3 className="mt-3 text-xl font-semibold">Active</h3>
-
             <div className="my-7 h-px bg-[#302621]/10" />
-
             <ul className="space-y-3 text-sm">
-              <li className="flex justify-between">
-                <span className="text-[#735a4c] text-xs tracking-wide">Size</span>
-                <span className="font-medium">B4</span>
-              </li>
               <li className="flex justify-between">
                 <span className="text-[#735a4c] text-xs tracking-wide">Plan</span>
                 <span className="font-medium">12 condoms · Monthly</span>
@@ -833,15 +705,12 @@ export default function Home() {
                 <span className="font-medium">£12 / month</span>
               </li>
             </ul>
-
             <div className="my-7 h-px bg-[#302621]/10" />
-
             <div className="bg-[#302621]/5 px-5 py-4">
               <p className="text-[10px] tracking-[0.4em] uppercase text-[#735a4c] mb-1">Next shipment</p>
               <p className="text-sm font-medium">15 April 2026</p>
               <p className="mt-0.5 text-xs text-[#7a715c]">Dispatched to your address on file</p>
             </div>
-
             <div className="mt-8 flex flex-col gap-3">
               <button className="w-full py-3 text-[10px] tracking-[0.3em] uppercase border border-[#302621]/20 text-[#302621] hover:border-[#302621] transition-all duration-200">
                 Pause subscription
