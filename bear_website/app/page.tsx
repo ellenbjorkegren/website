@@ -265,7 +265,7 @@ export default function Home() {
       </section>
 
       {/* ── Our Product ───────────────────────────────────────────────────── */}
-      <section id="product" className="bg-[#eae4d7] py-24 px-8 border-t border-[#302621]/10">
+      <section id="product" className="bg-[#C3B091] py-24 px-8 border-t border-[#302621]/10">
         <div className="max-w-7xl mx-auto">
 
           {/* Top row: heading + tagline */}
@@ -435,9 +435,9 @@ export default function Home() {
           {/* Left panel */}
           <div
             className="relative"
-            style={{ backgroundImage: "url('/BEAR_CHESS_BAR.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+            style={{ backgroundImage: "url('/BEAR_BLURRY_FOOTBALLER.png')", backgroundSize: "cover", backgroundPosition: "center" }}
           >
-            <div className="absolute inset-0 bg-[#2a1f1a]/30" />
+            <div className="absolute inset-0 bg-[#2a1f1a]/20" />
             <div className="absolute bottom-0 left-0 z-10 p-8 md:p-12">
               <span
                 className="font-bold text-[#eae4d7] leading-none select-none"
@@ -451,7 +451,7 @@ export default function Home() {
           {/* Right panel */}
           <div
             className="relative"
-            style={{ backgroundImage: "url('/BEAR_TENNIS_PLAYER.png')", backgroundSize: "cover", backgroundPosition: "center top" }}
+            style={{ backgroundImage: "url('/FOOTBALL_SHIRT_BEARS.png')", backgroundSize: "cover", backgroundPosition: "center top" }}
           >
             <div className="absolute inset-0 bg-[#302621]/20" />
             <div className="absolute bottom-0 right-0 z-10 p-8 md:p-12">
