@@ -1,6 +1,6 @@
 # Bear Nordic -- Image Generator Prompt Requirements
 
-**Last updated:** 2026-03-01
+**Last updated:** 2026-03-11
 
 ---
 
@@ -26,7 +26,7 @@ Every image or video prompt must include the following seven fields:
 
 **Light Artifacts:** [e.g., Warm tungsten practical lighting, Volumetric light, Visible light sources in frame, Soft overcast diffused daylight, Film grain, Lens flare, Bokeh, Golden hour glow, Deep shadows with amber cast. Reference the lighting modes documented in `style-prompt.md`.]
 
-**Realistic Details:** [e.g., Skin texture, Fabric weave, Worn leather patina, Wood grain, Water droplets, Film grain texture, 8K resolution, Photorealistic rendering, Nordic material textures. The mood board demands photorealism with analogue texture -- never CGI-clean or digitally perfect.]
+**Realistic Details:** [e.g., Skin texture, fabric weave, worn leather patina, wood grain, water droplets, film grain, natural vignette, soft highlight rolloff, lens breathing. Specify film stock where relevant: "shot on Kodak Portra 400", "35mm film scan", "Fuji 400H medium format". The mood board demands candid photographic realism with analogue texture — never CGI-clean, never digitally perfect, never "8K hyperrealistic". If you find yourself writing "8K" or "photorealistic rendering", replace it with a film stock reference instead.]
 
 ---
 
@@ -94,7 +94,7 @@ Reference images: `/Users/ellenbjorkegren/website/bear_website/bear_mask/jpg/` (
 
 For any prompt that needs the full general style treatment, the following block from `style-prompt.md` can be appended:
 
-> Editorial campaign photography, warm tungsten-and-practical-light interior or soft overcast European daylight, photorealistic with fine film grain, rich earth tones and warm neutrals -- cream, ecru, chocolate brown, olive, cognac leather, honey walnut -- accented by navy, forest green, and washed denim blue, low-key cinematic lighting with visible light sources in frame or flat diffused natural light, deep focus with foreground props for depth, aged and tactile textures throughout (worn leather, wood panelling, decorative tile, chunky knit, denim), subjects in relaxed confident poses at cafe tables or in leisured urban environments, heritage sportswear aesthetic meets European street culture, warm desaturated color grade with lifted shadows and amber-cast highlights in interiors, vertical portrait composition, genuinely diverse casting of self-possessed young adults aged 18--35, lived-in and culturally grounded atmosphere.
+> Shot on 35mm film, Kodak Portra 400, candid editorial photography, available light only — warm practical tungsten indoors or soft overcast European daylight or late-afternoon ambient haze outdoors, natural vignette, slight grain throughout, soft focus edges, highlights roll off gently without clipping hard, rich earth tones and warm neutrals — cream, ecru, chocolate brown, olive, cognac, honey walnut — accented by navy, forest green, and washed denim blue, warm desaturated color grade with lifted shadows and amber-cast highlights in interiors, composition slightly off-center or subject caught mid-moment, foreground and background breathe with natural depth of field rather than simultaneous sharpness, subjects self-possessed and unposed — absorbed in conversation or looking off-frame — in European cafe or street or leisured urban environments, heritage sportswear meets street culture, genuinely diverse casting aged 18--35, lived-in culturally grounded atmosphere, unstaged, imperfect, human.
 
 ---
 
@@ -112,7 +112,7 @@ For any prompt that needs the full general style treatment, the following block 
 
 **Light Artifacts:** Warm tungsten spill from cafe window creating a pool of amber light on the pavement; soft overcast dusk sky providing flat fill; subtle film grain throughout
 
-**Realistic Details:** Worn leather patina on jacket, visible denim texture and selvedge detail, wet pavement reflections, skin texture with natural light, fine film grain, 8K photorealistic rendering
+**Realistic Details:** Worn leather patina on jacket, visible denim texture and selvedge detail, wet pavement reflections, skin texture with natural light, shot on Kodak Portra 400, fine film grain, natural vignette, soft highlight rolloff
 
 ---
 
@@ -130,7 +130,7 @@ For any prompt that needs the full general style treatment, the following block 
 
 **Light Artifacts:** Single warm practical floor lamp visible in frame, deep shadows with amber cast in corners, tungsten warmth throughout, subtle lens warmth
 
-**Realistic Details:** Dense chocolate brown fur texture on mask catching warm light, visible wood grain on wall panels, aged leather armchair patina, ceramic glaze on espresso cup, fine film grain, 8K hyperrealistic rendering
+**Realistic Details:** Dense chocolate brown fur texture on mask catching warm light, visible wood grain on wall panels, aged leather armchair patina, shot on 35mm film, fine grain throughout, natural vignette, soft shadow edges, available light only — no studio setup
 
 ---
 

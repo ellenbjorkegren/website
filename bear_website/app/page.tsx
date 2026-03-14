@@ -181,17 +181,22 @@ export default function Home() {
         }
       );
 
-      // ── Product image: parallax drift while scrolling through ─────────────
-      gsap.to(".product-img", {
-        y: -60,
-        ease: "none",
-        scrollTrigger: {
-          trigger: "#product",
-          start: "top bottom",
-          end: "bottom top",
-          scrub: 1.2,
-        },
-      });
+      // ── Product words: stagger up on enter ───────────────────────────────
+      gsap.fromTo(".conf-word",
+        { y: 60, opacity: 0 },
+        {
+          y: 0,
+          opacity: 1,
+          stagger: 0.2,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: "#product",
+            start: "top 70%",
+            end: "top 10%",
+            scrub: 1.5,
+          },
+        }
+      );
 
     });
 
@@ -289,13 +294,23 @@ export default function Home() {
       </section>
 
       {/* ── Mission ──────────────────────────────────────────────────────── */}
-      <section id="mission" className="py-40 px-8 bg-[#eae4d7] border-t border-[#302621]/10">
-        <div className="zoom-in max-w-4xl mx-auto">
-          <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#735a4c]">
+      <section
+        id="mission"
+        className="relative py-40 px-8 border-t border-[#302621]/10 overflow-hidden"
+        style={{
+          backgroundImage: "url('/BEAR_MISSION_BG.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Dark overlay so text stays readable */}
+        <div className="absolute inset-0 bg-[#2a1f1a]/60" />
+        <div className="zoom-in max-w-4xl mx-auto relative z-10">
+          <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
             Somewhere along the way, condoms became{" "}
-            <span className="text-[#302621]">the thing people avoided.</span>
+            <span className="text-[#eae4d7]">the thing people avoided.</span>
           </p>
-          <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#302621]">
+          <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
             We got tired of it.
           </p>
         </div>
@@ -334,7 +349,7 @@ export default function Home() {
             </span>
 
             {/* Dominant headline — GSAP scrub via product-headline class */}
-            <h2 className="product-headline text-[clamp(3.5rem,6vw,7rem)] font-semibold leading-[1.0] text-[#2a1f1a] my-auto py-8">
+            <h2 className="product-headline text-[clamp(3.5rem,6vw,7rem)] font-semibold leading-[1.0] text-[#735a4c] my-auto py-8">
               It&apos;s better<br />when<br />it fits.
             </h2>
 
@@ -359,14 +374,17 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Image tile — parallax + reveal via GSAP */}
-          <div className="relative min-h-[500px] md:min-h-0 overflow-hidden">
-            <img
-              src="/BEAR_TENNIS_BAG.png"
-              alt="Bear Nordic — tennis bag with condom packet on courtside bench"
-              className="product-img absolute w-full h-full object-cover object-center"
-              style={{ top: "-40px", bottom: "-40px", left: 0, right: 0, height: "calc(100% + 80px)" }}
-            />
+          {/* Words tile */}
+          <div className="bg-[#2a1f1a] flex flex-col justify-center px-10 md:px-14 py-12 min-h-[500px] gap-1">
+            {["COMFORTABLE", "CURRENT", "CONFIDENT"].map((word) => (
+              <p
+                key={word}
+                className="conf-word font-semibold leading-[1.0] text-[#eae4d7]"
+                style={{ fontSize: "clamp(2.2rem, 4.8vw, 6rem)", letterSpacing: "0.03em" }}
+              >
+                {word}
+              </p>
+            ))}
           </div>
 
         </div>

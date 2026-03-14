@@ -1,6 +1,7 @@
 # Bear Nordic — General Style Prompt
 
 **Generated:** 2026-03-05
+**Anti-AI update:** 2026-03-11
 **Source mood folder:** `/Users/ellenbjorkegren/website/bear_website/mood/`
 **Images analyzed:** All 48 images — full re-analysis 2026-03-05. Previous count was 37 (2026-03-04). 11 new images added: chef kitchen hands, brown cap / iPod flat lay, blue crate street still life, vintage Mercedes golden-hour tailgate, pizza slice / white tile, outdoor cafe table still life, packed suitcase wardrobe flat lay, wine glass in denim pocket, La Seine riverside picnic, striped cloth flat lay (film camera + wine), green crate pavement coffee.
 
@@ -117,19 +118,12 @@ The mood board establishes a confident, culturally layered aesthetic that sits a
 - **Striped cotton knit (marinière):** The Seine picnic introduces a cream-and-navy striped long-sleeve top; relaxed French leisure register
 
 ### Props and Objects
-- **Bicycles:** Vintage road bikes and city commuter bikes with leather saddles; a recurring visual element — patinated steel frames, brown leather
-- **Tennis rackets:** Classic wooden or heritage-frame rackets as props, not active equipment
-- **Football equipment:** Multiple balls, goal posts, net mesh — used compositionally
-- **Books and newspapers:** Reading material as a leisure signal (not work); folded broadsheets, paperbacks, opened magazines; a Penguin Classic paperback appears in the cap flat lay
-- **Coffee cups:** Ceramic espresso cups, to-go paper cups, ceramic mugs on coloured saucers (the crate coffee image adds a stoneware beige mug and navy saucer) — always present as social anchors
-- **Film grain:** Visible in the more analogue-processed images, particularly the street and city shots
-- **iPod nano (classic):** Appears in the cap flat lay — a small scratched silver device with white earbuds, explicitly analogue-era taste signal; alongside a Penguin Classic and a tiger-eye/amber ring
-- **Natural wine:** Recurs across multiple new images (crate still life, wine-glass-in-denim, Seine picnic, striped cloth flat lay) as a recurring social prop — amber-gold liquid in wine glasses, unlabelled or small-producer bottles; a strong new motif
-- **Milk crates / plastic crates as furniture:** Blue crate (wine still life), blue crate (wine and bread), green crate (crate coffee) — used as improvised tables in public space; a recurring device that signals resourceful, low-key urban social life
-- **Vintage car:** The Mercedes W123 (gold/champagne, Ohio plates) — first car to appear in the mood board; signals American heritage leisure crossed with European car taste
-- **Open suitcase / packed luggage:** Wardrobe flat lay inside a JIL SANDER suitcase — cream and ecru garments, a navy cap, amber-tinted sunglasses, sunscreen, Goyard card holder; signals the packing of a specific kind of person going somewhere
-- **Pizza box:** Appears as a prop in the pizza eating image — entirely without self-consciousness; reinforces the "people who eat well without performing it" register
-- **Charcuterie and cheese:** La Seine picnic introduces salami, soft cheese, and charcuterie as visual props — European leisure food alongside wine
+
+Props in the mood board function as incidental scene evidence, not featured objects. They establish that a life is being lived in the space — they are not the point of the image, and they should not be rendered as such. When generating images, treat any props as background detail: present if the scene requires it, subordinate to the human subject, never perfectly composed or lit as if for a product shot.
+
+**What the mood board shows in passing:** vintage bicycles with leather saddles, ceramic coffee cups, folded newspapers, paperback books, analogue film cameras held loosely, wine glasses, unlabelled bottles, plastic crates used as improvised tables, a chess board set up on a crate, an iPod, a packed suitcase, food on paper on stone. These objects appear because real people have them nearby — not because a prop stylist arranged them. In generated images, none of these should be the focal point, precisely composed, or rendered with more detail than the scene's human subject warrants.
+
+**The risk to avoid:** AI image generators tend to over-render props when they are named in a prompt. A "ceramic espresso cup" becomes a hero-lit product shot. A "chess board" becomes a symmetrically perfect centerpiece. Suppress this tendency by framing props as ambient scene context — slightly out of focus if not in the foreground, not perfectly centered, not hyper-detailed.
 
 ---
 
@@ -171,11 +165,35 @@ The mood board establishes a confident, culturally layered aesthetic that sits a
 
 ## Art Style and Rendering Cues
 
-- **Photography style range:** Three distinct modes coexist — (1) deliberately art-directed editorial campaign with strong lighting design and (2) high-quality candid/street that feels caught rather than staged, and (3) flat lay / still life that is quiet, object-led, and catalog-adjacent. All three are present and all belong.
-- **Film grain and analogue texture:** Visible grain in the overcast European street images and some of the sport-context images; processed to feel like it was shot on high-quality 35mm or pushed film. The flat lay images tend toward cleaner, grain-free digital rendering.
+- **Photography style range:** Three distinct modes coexist — (1) candid/street that feels caught rather than staged, (2) lightly art-directed editorial that retains the quality of a real place and real moment, and (3) flat lay / still life that is quiet, object-led, and catalog-adjacent. All three are present and all belong. The mood board skews heavily toward the candid and lightly-directed end; over-composed, art-directed precision is the exception, not the rule.
+- **Film grain and analogue texture:** Visible grain throughout — particularly in the street, cafe, and riverside images. The reference feel is 35mm film (Kodak Portra 400 or Fuji 400H) or a well-scanned medium-format negative. Grain is present even in the cleaner flat lay images. Digital-clean, noise-free rendering is off-brand.
+- **Imperfection as authenticity:** The mood board images are not technically perfect. Highlights occasionally blow out slightly (the Seine picnic). Subjects are sometimes partially out of frame. Backgrounds are readable but not hyper-sharp. These imperfections are not failures — they are the quality. Generated images should carry the same sense that the photograph was taken, not constructed.
 - **Color grading:** Warm, slightly desaturated shadows across most images; lifted highlights; green channel subdued in favor of amber/gold in interior shots; exterior street shots lean slightly cooler and more neutral. The golden-hour tailgate image has the least graded, most documentary feel — almost unprocessed.
 - **Typography integration:** Overlaid text (serif headline, condensed bold sans-serif, script subheading) as a design layer — consistent with catalog or lookbook format across multiple source images
-- **Realism level:** Photorealistic throughout — no illustration, no CGI affect; hyper-real material textures at close range
+- **Realism level:** Documentary photorealism — no illustration, no CGI affect. The target is indistinguishable from a real photograph taken by a real photographer. Not "hyperrealistic" in the AI render sense — more "you could find this on a photographer's film roll."
+
+---
+
+## Anti-AI Rendering Guidelines
+
+The following guidelines exist to counteract the specific failure modes of AI image generation. Every point describes something that AI tools do by default that the Bear Nordic aesthetic explicitly rejects. These should be treated as hard constraints when writing or evaluating prompts.
+
+### Do Not Use
+- "8K", "8K resolution", "hyperrealistic", "photorealistic rendering", "ultra-detailed", "sharp focus on every surface", "professional photography", "studio lighting"
+- Symmetrical or perfectly centered compositions — AI defaults to this; push against it with off-center framing, negative space on one side, partial cropping
+- Perfect simultaneous focus on all elements — if the subject is sharp, the background should breathe; if a foreground prop is sharp, the subject mid-ground may have slight softness
+- Studio lighting setups — no key/fill/rim three-point lighting structures; available light only (window light, practical lamp in frame, overcast sky, tungsten spill)
+- Overly styled prop arrangements — no product-shot precision; objects should look placed, not arranged
+
+### What to Use Instead
+- "35mm film", "shot on Kodak Portra 400", "Fuji 400H", "medium format film scan", "candid editorial photography"
+- "available light", "natural window light", "practical tungsten", "overcast daylight", "golden hour ambient"
+- "slight grain", "natural vignette", "soft focus edges", "gentle lens breathing", "slight highlight rolloff"
+- "candid", "unposed", "caught mid-moment", "photographer found this scene", "unstaged"
+- Compositional imperfection: "slightly off-center", "subject partially cropped at frame edge", "background slightly out of focus but readable", "foreground element partially in frame"
+
+### The Test
+Before finalizing a prompt, ask: could this image have been taken by a real photographer on a real day? If the answer is "it looks too perfect to be real," the prompt needs more imperfection language and less technical precision language.
 
 ---
 
@@ -568,4 +586,4 @@ The Bear Nordic condom packet is a **square-format foil or card packet**, consis
 
 ## Style Prompt (Ready for Injection)
 
-> Editorial campaign photography, warm tungsten-and-practical-light interior or soft overcast European daylight or late-afternoon golden haze, photorealistic with fine film grain, rich earth tones and warm neutrals — cream, ecru, chocolate brown, olive, cognac leather, honey walnut — accented by navy, forest green, washed denim blue, and natural wine amber, low-key cinematic lighting with visible light sources in frame or flat diffused natural light, deep focus with foreground props for depth, aged and tactile textures throughout (worn leather, wood panelling, decorative tile, chunky knit, denim, cobblestone, grey tarmac), subjects in relaxed confident poses at cafe tables, on riverside stone, or around improvised furniture in leisured urban environments, heritage sportswear aesthetic meets European street culture and natural-wine leisure, warm desaturated color grade with lifted shadows and amber-cast highlights in interiors, vertical portrait or overhead flat lay composition, genuinely diverse casting of self-possessed young adults aged 18–35, lived-in and culturally grounded atmosphere.
+> Shot on 35mm film, Kodak Portra 400, candid editorial photography, available light only — warm practical tungsten indoors or soft overcast European daylight or late-afternoon ambient haze outdoors, natural vignette, slight grain throughout, soft focus edges, highlights roll off gently without clipping hard, rich earth tones and warm neutrals — cream, ecru, chocolate brown, olive, cognac, honey walnut — accented by navy, forest green, and washed denim blue, warm desaturated color grade with lifted shadows and amber-cast highlights in interiors, composition slightly off-center or subject caught mid-moment, foreground and background breathe with natural depth of field rather than simultaneous sharpness, subjects self-possessed and unposed — absorbed in conversation or looking off-frame — in European cafe or street or leisured urban environments, heritage sportswear meets street culture, genuinely diverse casting aged 18–35, lived-in culturally grounded atmosphere, unstaged, imperfect, human.
