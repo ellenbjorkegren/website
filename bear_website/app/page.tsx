@@ -17,8 +17,8 @@ const productCards = [
   },
   {
     num: "03",
-    title: "ISO 4074 certified",
-    desc: "Top-tier European safety standards. Electronic pinhole tested. Every batch checked before dispatch.",
+    title: "BSI & ISO 4074 certified",
+    desc: "All batches are independently tested by the British Standard Institute (BSI) to ISO4074:2015. Our products comply with relevant EU legislation and may be sold anywhere in the European Economic Area.",
   },
 ];
 
@@ -35,24 +35,32 @@ const onePacks = [
 
 const faqs = [
   {
-    q: "What is your delivery time?",
-    a: "We aim to dispatch all orders within 1–2 business days. Standard delivery takes 3–5 business days. Express options available at checkout.",
-  },
-  {
     q: "Are Bear Condoms safe?",
-    a: "Yes. All Bear condoms are CE marked and ISO 4074 certified, meeting the highest European safety standards. Every batch is tested before dispatch.",
+    a: "Yes. Condoms are a reliable protection against pregnancy and sexually transmitted infections. Condoms as a contraceptive are 98% effective against pregnancies when used correctly. Bear Condoms are certified with CE and ISO marks, meaning they are verified by international standards to ensure quality and safety.",
   },
   {
     q: "How do you quality check your products?",
-    a: "Every batch undergoes electronic pinhole testing and air inflation testing in line with ISO 4074 requirements. We work only with certified manufacturing partners.",
+    a: "All batches are independently tested by the British Standard Institute (BSI) to ensure they meet the quality required for producing condoms ISO4074:2015. ISO standards demonstrate our ability to consistently provide products and services that meet customer and regulatory requirements. Our products comply with the relevant EU legislation and may be sold anywhere in the European Economic Area (EEA).",
   },
   {
-    q: "What type of lubricant is best to use with Bear condoms?",
-    a: "Use water-based or silicone-based lubricants only. Oil-based lubricants (including coconut oil, petroleum jelly, and body lotion) can degrade latex and should never be used with condoms.",
+    q: "What type of lubricant is best to use with Bear Condoms?",
+    a: "Make sure to use a water- or silicone-based lubricant with Bear Condoms. Do not use oil-based lubricant, as it can damage latex and cause the condoms to break.",
   },
   {
-    q: "What are the condom ingredients?",
-    a: "Natural latex, water-based lubricant, and a small amount of cornstarch powder. No spermicide. No parabens.",
+    q: "How do I use a condom correctly?",
+    a: "1. Check the expiry date on the packaging before use.\n2. Open the packaging carefully — do not use teeth or sharp objects.\n3. Make sure the condom is the right way up before applying.\n4. Pinch the tip of the condom to remove air and place it on the head of an erect penis.\n5. Roll the condom all the way down to the base.\n6. After use, hold the base of the condom while withdrawing, wrap it in tissue and dispose of it in the bin — never flush condoms down the toilet.\n7. Use a new condom for every act of sex.",
+  },
+  {
+    q: "How should I store Bear Condoms?",
+    a: "Store Bear Condoms in a cool, dry place away from direct sunlight and sharp objects. Avoid storing them in wallets or back pockets for extended periods, as heat and friction can damage the latex.",
+  },
+  {
+    q: "What is your delivery time?",
+    a: "See our Shipping & Returns page for full delivery information.",
+  },
+  {
+    q: "Where are Bear Condoms made?",
+    a: "Bear Condoms are designed in Sweden.",
   },
   {
     q: "What are the measurements of Bear Condoms?",
@@ -424,46 +432,6 @@ export default function Home() {
 
       {/* ── Vision & Mission ─────────────────────────────────────────────── */}
       <section id="vision-mission" className="border-t border-[#302621]/10">
-
-        {/* Two-panel campaign image with BEAR CONFIDENCE overlay */}
-        <div className="relative grid grid-cols-2 min-h-[70vh] overflow-hidden">
-          {/* Top label */}
-          <div className="absolute top-6 left-1/2 -translate-x-1/2 z-20">
-            <p className="text-xs tracking-[0.4em] uppercase text-[#eae4d7]/80">Confident. Reliable. Daring.</p>
-          </div>
-
-          {/* Left panel */}
-          <div
-            className="relative"
-            style={{ backgroundImage: "url('/BEAR_BLURRY_FOOTBALLER.png')", backgroundSize: "cover", backgroundPosition: "center" }}
-          >
-            <div className="absolute inset-0 bg-[#2a1f1a]/20" />
-            <div className="absolute bottom-0 left-0 z-10 p-8 md:p-12">
-              <span
-                className="font-bold text-[#eae4d7] leading-none select-none"
-                style={{ fontSize: "clamp(3rem, 10vw, 9rem)", letterSpacing: "-0.02em" }}
-              >
-                BEAR
-              </span>
-            </div>
-          </div>
-
-          {/* Right panel */}
-          <div
-            className="relative"
-            style={{ backgroundImage: "url('/FOOTBALL_SHIRT_BEARS.png')", backgroundSize: "cover", backgroundPosition: "center top" }}
-          >
-            <div className="absolute inset-0 bg-[#302621]/20" />
-            <div className="absolute bottom-0 right-0 z-10 p-8 md:p-12">
-              <span
-                className="font-bold text-[#eae4d7] leading-none select-none"
-                style={{ fontSize: "clamp(3rem, 10vw, 9rem)", letterSpacing: "-0.02em" }}
-              >
-                CONFIDENCE
-              </span>
-            </div>
-          </div>
-        </div>
 
         {/* Vision copy */}
         <div
