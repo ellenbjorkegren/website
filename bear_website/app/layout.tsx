@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${muktaMahee.variable} antialiased`}>{children}</body>
+      <body className={`${muktaMahee.variable} font-sans antialiased`}>{children}</body>
     </html>
   );
 }
