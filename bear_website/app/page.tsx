@@ -7,13 +7,13 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const productCards = [
   {
     num: "01",
-    title: "Ultra-thin latex",
-    desc: "0.05mm. Sustainably sourced natural latex. No nasties, no compromise. Just a product that's genuinely worth choosing.",
+    title: "Comfortable Fit",
+    desc: "We have tested all different types and shapes so you don't have to. Quality materials. Shape that fits all. A condom that feels like it's barely there.",
   },
   {
     num: "02",
-    title: "One universal size",
-    desc: "Designed to fit comfortably. A condom that fits properly changes everything — and that's not marketing speak.",
+    title: "Discreet Packaging",
+    desc: "Bear Brown — discreet, minimalistic and stylish. Innovative packaging for every occasion.",
   },
   {
     num: "03",
@@ -28,9 +28,9 @@ const qtyOptions = ["12 condoms", "24 condoms", "36 condoms"];
 const basePrices = [12, 20, 28];
 
 const onePacks = [
-  { name: "Tester",  price: "£4",  qty: "3 condoms",  desc: "Try before you commit." },
-  { name: "Stash",   price: "£11", qty: "12 condoms", desc: "Stocked up without the subscription." },
-  { name: "Bulk",    price: "£20", qty: "24 condoms", desc: "Best per-unit price for a single order." },
+  { name: "On the Go",             price: "£4",  qty: "4 condoms",  desc: "Bring on an adventure." },
+  { name: "Bring on an Adventure", price: "£11", qty: "12 condoms", desc: "Always ready, wherever you are." },
+  { name: "Stock Up at Home",      price: "£20", qty: "36 condoms", desc: "ALLTID REDO — always prepared." },
 ];
 
 const faqs = [
@@ -151,30 +151,6 @@ export default function Home() {
         });
       });
 
-      // ── Hero rings: slow drift ────────────────────────────────────────────
-      gsap.to(".ring-hero", {
-        rotation: 360,
-        duration: 70,
-        repeat: -1,
-        ease: "none",
-        transformOrigin: "center center",
-      });
-
-      // ── Product image: subtle float in ───────────────────────────────────
-      gsap.fromTo(".product-condom-img",
-        { y: 30, opacity: 0 },
-        {
-          y: 0,
-          opacity: 1,
-          ease: "power2.out",
-          scrollTrigger: {
-            trigger: "#product",
-            start: "top 75%",
-            end: "top 30%",
-            scrub: 1.5,
-          },
-        }
-      );
 
     });
 
@@ -201,7 +177,7 @@ export default function Home() {
           {[
             { label: "Our Product",      href: "#product" },
             { label: "Vision & Mission", href: "#vision-mission" },
-            { label: "Founder Story",    href: "#founder" },
+            { label: "Our Story",         href: "#founder" },
             { label: "FAQ",              href: "#faq" },
           ].map(({ label, href }) => (
             <a
@@ -215,29 +191,17 @@ export default function Home() {
           ))}
         </div>
         <div className="ml-auto flex items-center gap-4 shrink-0">
-          <button
-            onClick={() => setShowMemberModal(true)}
-            className="text-sm tracking-[0.15em] uppercase text-[#735a4c] hover:text-[#eae4d7] transition-colors duration-300"
-          >
-            Already a member?
-          </button>
           <a
             href="#subscription"
             className="text-sm tracking-[0.2em] uppercase border border-[#4a3d33] px-5 py-2.5 hover:border-[#9a8d81] hover:text-[#eae4d7] transition-all duration-300"
           >
-            Subscribe
+            Join Waitlist
           </a>
         </div>
       </nav>
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section className="hero-section relative flex flex-col items-center justify-center min-h-screen text-center px-8 overflow-hidden">
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
-          <div className="ring-hero absolute w-[700px] h-[700px] rounded-full border border-[#ffffff04]" />
-          <div className="absolute w-[500px] h-[500px] rounded-full border border-[#ffffff06]" />
-          <div className="absolute w-[300px] h-[300px] rounded-full border border-[#ffffff08]" />
-        </div>
-
         <h1
           className="bear-hero-text font-bold leading-none cursor-default select-none"
           style={{
@@ -252,16 +216,16 @@ export default function Home() {
 
         <div className="hero-sub-content flex flex-col items-center">
           <p className="mt-6 text-sm tracking-[0.4em] uppercase text-[#7a715c]">
-            Protection · Fit · Confidence
+            Comfortable Fit · Discreet Packaging · Always Ready
           </p>
           <p className="mt-6 max-w-sm text-base text-[#7a715c] leading-relaxed">
-            No shame. No excuses. Just a condom worth choosing.
+            Nordic minimalism. Swedish safety. Stockholm chique.
           </p>
           <a
-            href="#product"
+            href="#subscription"
             className="group mt-12 inline-flex items-center gap-3 border border-[#4a3d33] px-9 py-4 text-sm tracking-[0.25em] uppercase hover:border-[#9a8d81] transition-all duration-500"
           >
-            See Why
+            Join the Waitlist
             <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
           </a>
         </div>
@@ -273,7 +237,7 @@ export default function Home() {
       </section>
 
       {/* ── Our Product ───────────────────────────────────────────────────── */}
-      <section id="product" className="bg-[#C3B091] py-24 px-8 border-t border-[#302621]/10">
+      <section id="product" className="bg-[#eae4d7] py-24 px-8 border-t border-[#302621]/10">
         <div className="max-w-7xl mx-auto">
 
           {/* Top row: heading + tagline */}
@@ -288,16 +252,12 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Center video */}
-          <div className="flex justify-center items-center py-10 md:py-16">
-            <video
-              src="/CONDOM_SPINNING.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="product-condom-img w-full max-w-md md:max-w-lg object-contain"
-            />
+          {/* Coming soon */}
+          <div className="flex flex-col justify-center items-center py-16 md:py-24 text-center">
+            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Coming Soon</span>
+            <p className="mt-6 text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
+              A Nordic condom company. Created by 4 cousins who saw a gap in the market for a stylish, quality condom. By women, for men.
+            </p>
           </div>
 
           {/* Product cards — same style as Why Bear */}
@@ -326,10 +286,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscription</span>
             <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold">
-              Always sorted.
+              Alltid redo.
             </h2>
-            <p className="mt-4 text-base text-[#7a715c] max-w-xs mx-auto leading-relaxed">
-              To your door. Cancel whenever.
+            <p className="mt-4 text-base text-[#7a715c] max-w-sm mx-auto leading-relaxed">
+              After one click you will always have a condom available. Pause the subscription at any time. As we say in the Swedish scout core: always ready.
             </p>
           </div>
 
@@ -386,16 +346,16 @@ export default function Home() {
               )}
             </div>
             <button className="shrink-0 border border-[#eae4d7] px-10 py-4 text-sm tracking-[0.25em] uppercase hover:bg-[#eae4d7] hover:text-[#302621] transition-all duration-300">
-              Subscribe Now
+              Register Interest
             </button>
           </div>
 
           <p className="mt-6 text-center text-sm text-[#4a3d33] tracking-wide">
-            No commitment. Pause or cancel at any time.
+            No charge until we launch. Cancel any time before then.
           </p>
           <div className="mt-4 text-center">
             <a href="#order" className="text-sm tracking-wide text-[#4a3d33] hover:text-[#735a4c] transition-colors duration-200 underline underline-offset-4">
-              Not ready? Try a one-off order instead →
+              Prefer a one-off order? Register here →
             </a>
           </div>
         </div>
@@ -406,9 +366,9 @@ export default function Home() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">One-time order</span>
-            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold">Commitment issues?</h2>
+            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold">Just want to try?</h2>
             <p className="mt-4 text-base text-[#7a715c] max-w-xs mx-auto leading-relaxed">
-              Not ready to subscribe? Order once, no strings attached.
+              Not ready to subscribe? Register your interest for a one-off batch when we launch.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
@@ -422,7 +382,7 @@ export default function Home() {
                 <p className="text-base font-medium">{pack.qty}</p>
                 <p className="mt-4 text-sm text-[#7a715c] leading-relaxed">{pack.desc}</p>
                 <button className="mt-8 w-full py-3.5 text-sm tracking-[0.25em] uppercase border border-[#302621] hover:bg-[#302621] hover:text-[#eae4d7] transition-all duration-300">
-                  Order Now
+                  Register Interest
                 </button>
               </div>
             ))}
@@ -434,23 +394,17 @@ export default function Home() {
       <section id="vision-mission" className="border-t border-[#302621]/10">
 
         {/* Vision copy */}
-        <div
-          className="relative py-40 px-8 overflow-hidden"
-          style={{
-            backgroundImage: "url('/BEAR_MISSION_BG.png')",
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-          }}
-        >
-          <div className="absolute inset-0 bg-[#2a1f1a]/65" />
+        <div className="relative py-40 px-8 overflow-hidden bg-[#2a1f1a]">
+          <div />
           <div className="relative z-10 max-w-4xl mx-auto">
             <div className="zoom-in">
               <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
-                Somewhere along the way, condoms became{" "}
-                <span className="text-[#eae4d7]">the thing people avoided.</span>
+                Nordic minimalism.{" "}
+                <span className="text-[#eae4d7]">Swedish safety.</span>{" "}
+                Stockholm chique.
               </p>
               <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
-                We got tired of it.
+                A family company.
               </p>
             </div>
 
@@ -460,31 +414,26 @@ export default function Home() {
               <div className="md:w-1/3 shrink-0">
                 <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#eae4d7]/60">Our Vision</span>
                 <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#eae4d7]">
-                  Zero shame.<br />Zero excuses.
+                  By women,<br />for men.
                 </h2>
                 <p className="anim-up mt-4 text-sm text-[#eae4d7]/60 leading-relaxed">
-                  Inspired by Sweden&apos;s <em>nollvisionen</em> — the goal of zero road deaths.
+                  Created by 4 cousins who saw a gap in the market for a stylish, quality condom.
                 </p>
               </div>
               <div className="md:w-2/3 space-y-6 pt-1">
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  We want men to feel completely comfortable and confident — not
-                  just in the moment, but before it. The ritual shouldn&apos;t
-                  break anything. It should feel like part of it.
+                  We have tested all different types and shapes so you don&apos;t have to. Quality materials. A shape that fits all.
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  Bear exists to make protection feel natural. Not clinical, not
-                  awkward, not something you tolerate.{" "}
-                  <span className="text-[#eae4d7]">Something you actually want to use.</span>
+                  Bear Brown — discreet, minimalistic and stylish. Innovative packaging{" "}
+                  <span className="text-[#eae4d7]">for every occasion.</span>
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  We want condoms to feel as normal as deodorant. You don&apos;t
-                  explain deodorant. You don&apos;t hide it. You just use it — because
-                  you care about yourself and the people you&apos;re with.
+                  Easily made available from one click on our website. After one click you will always have a condom available.
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  The goal? A generation where STDs and unplanned pregnancies are
-                  the exception — not the risk you just shrug at.
+                  As we say in the Swedish scout core:{" "}
+                  <span className="text-[#eae4d7] italic">Alltid redo</span> — always ready.
                 </p>
               </div>
             </div>
@@ -497,14 +446,17 @@ export default function Home() {
       <section id="founder" className="py-40 px-8 border-t border-[#ffffff06]">
         <div className="max-w-4xl mx-auto">
           <div className="zoom-in">
-            <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Founder Story</span>
+            <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Our Story</span>
             <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
-              Built from frustration.<br />
-              <span className="text-[#735a4c]">Driven by conviction.</span>
+              Created by 4 cousins.<br />
+              <span className="text-[#735a4c]">A family company.</span>
             </h2>
             <div className="mt-16 space-y-6">
               <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
-                [Founder story coming soon.]
+                We saw a gap in the market for a stylish, quality condom — and decided to fill it. Bear is a Nordic condom company built on the belief that protection should feel as good as it looks. Discreet. Comfortable. Always ready.
+              </p>
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
+                Presented by Francisco Andrade. Designed in Sweden.
               </p>
             </div>
           </div>
@@ -552,20 +504,20 @@ export default function Home() {
       <section className="py-40 px-8 border-t border-[#ffffff06] text-center">
         <div className="zoom-in max-w-2xl mx-auto">
           <p className="anim-up text-sm tracking-[0.5em] uppercase text-[#735a4c] mb-8">
-            Confident. Reliable. Daring.
+            Coming Soon
           </p>
           <h2 className="anim-up text-[clamp(2.5rem,8vw,6rem)] font-bold tracking-wide leading-[1.05]">
             BEAR
             <br />
             <span className="text-[#735a4c] transition-colors duration-500 hover:text-[#7a715c] cursor-default">
-              CONFIDENCE.
+              IS COMING.
             </span>
           </h2>
           <a
             href="#subscription"
             className="group mt-14 inline-flex items-center gap-4 border border-[#4a3d33] px-10 py-5 text-sm tracking-[0.25em] uppercase hover:border-[#9a8d81] transition-all duration-500"
           >
-            Subscribe Now
+            Join the Waitlist
             <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
           </a>
         </div>
@@ -574,10 +526,14 @@ export default function Home() {
       {/* ── Footer ───────────────────────────────────────────────────────── */}
       <footer className="py-10 px-8 border-t border-[#3a2e26]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-[#735a4c]">
-          <span className="text-sm tracking-[0.5em] uppercase">Bear</span>
-          <p className="text-sm italic tracking-wide text-[#7a715c]">
-            Bear with us. Bear necessities. You can barely feel it.
-          </p>
+          <span className="text-sm tracking-[0.5em] uppercase">Bear — A Nordic Condom Company</span>
+          <div className="flex items-center gap-8 text-sm tracking-wider">
+            {["Instagram", "Facebook", "TikTok"].map((link) => (
+              <a key={link} href="#" className="hover:text-[#7a715c] transition-colors duration-200">
+                {link}
+              </a>
+            ))}
+          </div>
           <div className="flex items-center gap-8 text-sm tracking-wider">
             {["Privacy", "Terms", "Contact"].map((link) => (
               <a key={link} href="#" className="hover:text-[#7a715c] transition-colors duration-200">
