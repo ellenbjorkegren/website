@@ -190,14 +190,6 @@ export default function Home() {
             </a>
           ))}
         </div>
-        <div className="ml-auto flex items-center gap-4 shrink-0">
-          <a
-            href="#subscription"
-            className="text-sm tracking-[0.2em] uppercase border border-[#4a3d33] px-5 py-2.5 hover:border-[#9a8d81] hover:text-[#eae4d7] transition-all duration-300"
-          >
-            Join Waitlist
-          </a>
-        </div>
       </nav>
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
@@ -221,13 +213,9 @@ export default function Home() {
           <p className="mt-6 max-w-sm text-base text-[#7a715c] leading-relaxed">
             Nordic minimalism. Swedish safety. Stockholm chique.
           </p>
-          <a
-            href="#subscription"
-            className="group mt-12 inline-flex items-center gap-3 border border-[#4a3d33] px-9 py-4 text-sm tracking-[0.25em] uppercase hover:border-[#9a8d81] transition-all duration-500"
-          >
-            Join the Waitlist
-            <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-          </a>
+          <p className="mt-10 text-xs tracking-[0.5em] uppercase text-[#735a4c]">
+            Coming Soon
+          </p>
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
@@ -246,32 +234,28 @@ export default function Home() {
               OUR<br />PRODUCT
             </h2>
             <p className="anim-up text-sm text-[#735a4c] leading-relaxed tracking-[0.08em] uppercase md:text-right max-w-xs">
-              Comfortable Fit.<br />
-              Discreet Packaging.<br />
-              Always Available.
+              A Nordic<br />Condom Company
             </p>
           </div>
 
           {/* Coming soon + pack sizes */}
           <div className="flex flex-col justify-center items-center py-16 md:py-24 text-center">
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Coming Soon</span>
-            <p className="mt-6 text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
+            <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
               A condom designed to be comfortable, discreet, and always within reach.
             </p>
-            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-2xl">
+            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl">
               {[
-                { name: "On the Go",             qty: "4 condoms" },
-                { name: "Bring on an Adventure", qty: "12 condoms" },
-                { name: "Stock Up at Home",      qty: "36 condoms" },
+                { src: "/4.png", label: "On the Go · 4 condoms" },
+                { src: "/5.png", label: "Bring on an Adventure · 12 condoms" },
+                { src: "/6.png", label: "Stock Up at Home · 36 condoms" },
               ].map((pack) => (
-                <div key={pack.name} className="border border-[#302621]/15 p-8 text-left">
-                  <p className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">{pack.qty}</p>
-                  <p className="mt-3 text-base font-medium text-[#302621]">{pack.name}</p>
+                <div key={pack.src} className="flex flex-col">
+                  <img src={pack.src} alt={pack.label} className="w-full aspect-square object-cover" />
                 </div>
               ))}
             </div>
             <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
-              Available as a subscription or one-time order — register your interest below
+              Available as a subscription or one-time order at launch
             </p>
           </div>
 
@@ -352,46 +336,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-6 flex justify-center">
-            <button className="shrink-0 border border-[#eae4d7] px-10 py-4 text-sm tracking-[0.25em] uppercase hover:bg-[#eae4d7] hover:text-[#302621] transition-all duration-300">
-              Register Interest
-            </button>
-          </div>
-
-          <p className="mt-6 text-center text-sm text-[#4a3d33] tracking-wide">
+          <p className="mt-8 text-center text-sm text-[#4a3d33] tracking-wide">
             No charge until we launch. Cancel any time before then.
           </p>
-          <div className="mt-4 text-center">
-            <a href="#order" className="text-sm tracking-wide text-[#4a3d33] hover:text-[#735a4c] transition-colors duration-200 underline underline-offset-4">
-              Prefer a one-off order? Register here →
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── One-time order ────────────────────────────────────────────────── */}
-      <section id="order" className="py-32 px-8 border-t border-[#ffffff06]">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">One-time order</span>
-            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold">Just want to try?</h2>
-            <p className="mt-4 text-base text-[#7a715c] max-w-xs mx-auto leading-relaxed">
-              Not ready to subscribe? Register your interest for a one-off batch when we launch.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {onePacks.map((pack) => (
-              <div key={pack.name} className="p-8 bg-[#eae4d7] text-[#302621]">
-                <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">{pack.qty}</span>
-                <p className="mt-3 text-xl font-semibold">{pack.name}</p>
-                <div className="my-6 h-px bg-[#302621]/10" />
-                <p className="mt-4 text-sm text-[#7a715c] leading-relaxed">{pack.desc}</p>
-                <button className="mt-8 w-full py-3.5 text-sm tracking-[0.25em] uppercase border border-[#302621] hover:bg-[#302621] hover:text-[#eae4d7] transition-all duration-300">
-                  Register Interest
-                </button>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
@@ -404,12 +351,11 @@ export default function Home() {
           <div className="relative z-10 max-w-4xl mx-auto">
             <div className="zoom-in">
               <p className="anim-up text-[clamp(1.5rem,3.5vw,2.75rem)] font-light leading-[1.4] text-[#eae4d7]/80">
-                Nordic minimalism.{" "}
-                <span className="text-[#eae4d7]">Swedish safety.</span>{" "}
-                Stockholm chique.
+                We noticed that protection had become{" "}
+                <span className="text-[#eae4d7]">an afterthought.</span>
               </p>
               <p className="anim-up mt-16 text-[clamp(1.75rem,4vw,3rem)] font-semibold text-[#eae4d7]">
-                A family company.
+                We decided to change that.
               </p>
             </div>
 
@@ -422,23 +368,19 @@ export default function Home() {
                   By women,<br />for men.
                 </h2>
                 <p className="anim-up mt-4 text-sm text-[#eae4d7]/60 leading-relaxed">
-                  Created by 4 cousins who saw a gap in the market for a stylish, quality condom.
+                  Designed in Sweden, where simplicity is a standard — not a trend.
                 </p>
               </div>
               <div className="md:w-2/3 space-y-6 pt-1">
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  Quality materials. A shape that fits all. A condom that feels like it&apos;s barely there.
+                  Clinically packaged, awkwardly purchased, rarely talked about. Protection had lost its place in everyday life.
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  Bear Brown — discreet, minimalistic and stylish. Innovative packaging{" "}
-                  <span className="text-[#eae4d7]">for every occasion.</span>
+                  Bear is our answer. A condom that fits the life you&apos;re already living —{" "}
+                  <span className="text-[#eae4d7]">not one that interrupts it.</span>
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  Easily made available from one click on our website. After one click you will always have a condom available.
-                </p>
-                <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  As we say in the Swedish scout core:{" "}
-                  <span className="text-[#eae4d7] italic">Alltid redo</span> — always ready.
+                  Minimalist by design. Confident by nature. Built for people who take care of themselves and the people they&apos;re with.
                 </p>
               </div>
             </div>
@@ -453,15 +395,15 @@ export default function Home() {
           <div className="zoom-in">
             <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Our Story</span>
             <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
-              Created by 4 cousins.<br />
-              <span className="text-[#735a4c]">A family company.</span>
+              Built with purpose.<br />
+              <span className="text-[#735a4c]">Driven by conviction.</span>
             </h2>
             <div className="mt-16 space-y-6">
               <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
-                We saw a gap in the market for a stylish, quality condom — and decided to fill it. Bear is a Nordic condom company built on the belief that protection should feel as good as it looks. Discreet. Comfortable. Always ready.
+                Four cousins. One shared frustration. A belief that the right product, presented the right way, could genuinely change behaviour — and make protection something people are proud to choose.
               </p>
               <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
-                Presented by Francisco Andrade. Designed in Sweden.
+                Presented by Francisco Andrade.
               </p>
             </div>
           </div>
@@ -508,9 +450,6 @@ export default function Home() {
       {/* ── Final CTA ────────────────────────────────────────────────────── */}
       <section className="py-40 px-8 border-t border-[#ffffff06] text-center">
         <div className="zoom-in max-w-2xl mx-auto">
-          <p className="anim-up text-sm tracking-[0.5em] uppercase text-[#735a4c] mb-8">
-            Coming Soon
-          </p>
           <h2 className="anim-up text-[clamp(2.5rem,8vw,6rem)] font-bold tracking-wide leading-[1.05]">
             BEAR
             <br />
@@ -518,13 +457,6 @@ export default function Home() {
               CONDOMS COMING SOON.
             </span>
           </h2>
-          <a
-            href="#subscription"
-            className="group mt-14 inline-flex items-center gap-4 border border-[#4a3d33] px-10 py-5 text-sm tracking-[0.25em] uppercase hover:border-[#9a8d81] transition-all duration-500"
-          >
-            Join the Waitlist
-            <span className="transition-transform duration-300 group-hover:translate-x-1.5">→</span>
-          </a>
         </div>
       </section>
 
