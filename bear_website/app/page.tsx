@@ -472,13 +472,15 @@ export default function Home() {
           </p>
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
             {[
-              { label: "Instagram", handle: "@bearnordic" },
-              { label: "TikTok",    handle: "@bearnordic" },
-              { label: "Facebook",  handle: "Bear Nordic" },
-            ].map(({ label, handle }) => (
+              { label: "Instagram", handle: "@bearnordic_official", href: "https://www.instagram.com/bearnordic_official/" },
+              { label: "TikTok",    handle: "@bearnordic_official", href: "https://www.tiktok.com/@bearnordic_official?lang=en-GB" },
+              { label: "Facebook",  handle: "Bear Nordic",          href: "https://www.facebook.com/profile.php?id=61588307767398" },
+            ].map(({ label, handle, href }) => (
               <a
                 key={label}
-                href="#"
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-4 border border-[#4a3d33] px-8 py-10 hover:border-[#9a8d81] hover:bg-[#302621]/40 transition-all duration-400"
               >
                 <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
