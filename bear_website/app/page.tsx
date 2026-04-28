@@ -8,7 +8,7 @@ const productCards = [
   {
     num: "01",
     title: "Comfortable Fit",
-    desc: "Quality materials. A shape that fits all. A condom that feels like it's barely there.",
+    desc: "A shape that fits all. A condom that feels like it's barely there.",
   },
   {
     num: "02",
@@ -18,7 +18,7 @@ const productCards = [
   {
     num: "03",
     title: "Premium Quality",
-    desc: "Designed to the highest standards. Natural latex. No compromises — because what you choose matters.",
+    desc: "Designed to the highest standards. No compromises — because what you choose matters.",
   },
 ];
 
@@ -161,9 +161,20 @@ export default function Home() {
   const [freqIndex, setFreqIndex] = useState(0);
   const [qtyIndex, setQtyIndex] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [showNewsletterModal, setShowNewsletterModal] = useState(false);
+  const [nlFirstName, setNlFirstName] = useState("");
+  const [nlEmail, setNlEmail] = useState("");
+  const [nlStatus, setNlStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
 
   const discount = freqDiscounts[freqIndex];
   const price = Math.round(basePrices[qtyIndex] * (1 - discount / 100));
+
+  function handleNewsletterSubmit(e: React.FormEvent) {
+    e.preventDefault();
+    setNlStatus("success");
+    setNlFirstName("");
+    setNlEmail("");
+  }
 
   return (
     <div className="bg-[#302621] text-[#eae4d7] min-h-screen font-sans">
@@ -189,6 +200,14 @@ export default function Home() {
               <span className="absolute bottom-0 left-0 h-px w-0 bg-[#eae4d7] transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
+        </div>
+        <div className="ml-auto shrink-0">
+          <button
+            onClick={() => { setShowNewsletterModal(true); setNlStatus("idle"); }}
+            className="text-sm tracking-[0.2em] uppercase border border-[#4a3d33] px-5 py-2.5 hover:border-[#9a8d81] hover:text-[#eae4d7] transition-all duration-300"
+          >
+            Newsletter
+          </button>
         </div>
       </nav>
 
@@ -332,8 +351,8 @@ export default function Home() {
           <div className="zoom-in">
             <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Our Story</span>
             <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
-              Built with purpose.<br />
-              <span className="text-[#735a4c]">Driven by conviction.</span>
+              A family company<br />
+              <span className="text-[#735a4c]">driven by conviction.</span>
             </h2>
             <div className="mt-16 space-y-6">
               <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
@@ -384,6 +403,19 @@ export default function Home() {
               </a>
             ))}
           </div>
+
+          <div className="mt-16 border-t border-[#ffffff08] pt-16">
+            <p className="anim-up text-sm tracking-[0.4em] uppercase text-[#735a4c] mb-6">Newsletter</p>
+            <p className="anim-up text-base text-[#7a715c] max-w-xs mx-auto leading-relaxed mb-8">
+              Be the first to know when we launch. No spam — just Bear.
+            </p>
+            <button
+              onClick={() => { setShowNewsletterModal(true); setNlStatus("idle"); }}
+              className="border border-[#4a3d33] px-10 py-4 text-sm tracking-[0.25em] uppercase hover:border-[#9a8d81] hover:text-[#eae4d7] transition-all duration-500"
+            >
+              Subscribe to our Newsletter
+            </button>
+          </div>
         </div>
       </section>
 
@@ -427,12 +459,8 @@ export default function Home() {
       {/* ── Final CTA ────────────────────────────────────────────────────── */}
       <section className="py-40 px-8 border-t border-[#ffffff06] text-center">
         <div className="zoom-in max-w-2xl mx-auto">
-          <h2 className="anim-up text-[clamp(2.5rem,8vw,6rem)] font-bold tracking-wide leading-[1.05]">
-            BEAR
-            <br />
-            <span className="text-[#735a4c] transition-colors duration-500 hover:text-[#7a715c] cursor-default">
-              CONDOMS COMING SOON.
-            </span>
+          <h2 className="anim-up text-[clamp(2.5rem,8vw,6rem)] font-bold tracking-wide leading-[1.05] text-[#eae4d7]">
+            BEAR<br />CONDOMS COMING SOON.
           </h2>
         </div>
       </section>
@@ -450,6 +478,67 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* ── Newsletter modal ─────────────────────────────────────────────── */}
+      {showNewsletterModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center px-6"
+          onClick={() => setShowNewsletterModal(false)}
+        >
+          <div className="absolute inset-0 bg-[#302621]/80 backdrop-blur-sm" />
+          <div
+            className="relative bg-[#eae4d7] text-[#302621] max-w-sm w-full p-10"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              onClick={() => setShowNewsletterModal(false)}
+              className="absolute top-5 right-5 text-[#735a4c] hover:text-[#302621] transition-colors duration-200 text-sm tracking-[0.25em] uppercase"
+            >
+              Close
+            </button>
+            {nlStatus === "success" ? (
+              <div className="text-center py-6">
+                <p className="text-xs tracking-[0.5em] uppercase text-[#735a4c] mb-3">You&apos;re in.</p>
+                <p className="text-base font-medium">Thanks for signing up.<br />We&apos;ll be in touch.</p>
+              </div>
+            ) : (
+              <>
+                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Newsletter</span>
+                <h3 className="mt-3 text-xl font-semibold">Stay in the loop.</h3>
+                <p className="mt-2 text-sm text-[#7a715c] leading-relaxed">Be the first to know when Bear launches.</p>
+                <form onSubmit={handleNewsletterSubmit} className="mt-8 space-y-4">
+                  <input
+                    type="text"
+                    placeholder="First name"
+                    value={nlFirstName}
+                    onChange={(e) => setNlFirstName(e.target.value)}
+                    required
+                    className="w-full border border-[#302621]/20 bg-transparent px-4 py-3 text-sm placeholder-[#735a4c] focus:outline-none focus:border-[#302621] transition-colors duration-200"
+                  />
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    value={nlEmail}
+                    onChange={(e) => setNlEmail(e.target.value)}
+                    required
+                    className="w-full border border-[#302621]/20 bg-transparent px-4 py-3 text-sm placeholder-[#735a4c] focus:outline-none focus:border-[#302621] transition-colors duration-200"
+                  />
+                  {nlStatus === "error" && (
+                    <p className="text-xs text-red-600">Something went wrong. Please try again.</p>
+                  )}
+                  <button
+                    type="submit"
+                    disabled={nlStatus === "loading"}
+                    className="w-full py-3.5 text-sm tracking-[0.25em] uppercase bg-[#302621] text-[#eae4d7] hover:bg-[#4a3d33] transition-colors duration-300 disabled:opacity-50"
+                  >
+                    {nlStatus === "loading" ? "Submitting…" : "Subscribe"}
+                  </button>
+                </form>
+              </>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* ── Member modal ─────────────────────────────────────────────────── */}
       {showMemberModal && (
