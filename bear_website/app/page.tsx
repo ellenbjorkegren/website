@@ -257,8 +257,25 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Coming soon + pack sizes */}
-          <div className="flex flex-col justify-center items-center py-16 md:py-24 text-center">
+          {/* Product cards */}
+          <div className="card-group grid grid-cols-1 md:grid-cols-3 gap-px bg-[#302621]/10 mb-16">
+            {productCards.map((f) => (
+              <div
+                key={f.num}
+                className="anim-card group relative bg-[#eae4d7] p-10 hover:bg-[#d9cdb8] transition-colors duration-500 cursor-default overflow-hidden border border-[#302621]/10"
+              >
+                <div className="absolute top-0 left-0 h-px w-0 bg-[#302621] transition-all duration-500 group-hover:w-full" />
+                <span className="text-xs tracking-[0.4em] text-[#735a4c]">{f.num}</span>
+                <h3 className="mt-7 text-base font-medium text-[#302621] transition-colors duration-300">
+                  {f.title}
+                </h3>
+                <p className="mt-4 text-sm text-[#735a4c] leading-relaxed">{f.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Pack sizes */}
+          <div className="flex flex-col justify-center items-center py-8 text-center">
             <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
               A condom designed to be comfortable, discreet, and always within reach.
             </p>
@@ -276,23 +293,6 @@ export default function Home() {
             <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
               Available as a subscription or one-time order at launch
             </p>
-          </div>
-
-          {/* Product cards — same style as Why Bear */}
-          <div className="card-group grid grid-cols-1 md:grid-cols-3 gap-px bg-[#302621]/10 mt-8">
-            {productCards.map((f) => (
-              <div
-                key={f.num}
-                className="anim-card group relative bg-[#eae4d7] p-10 hover:bg-[#d9cdb8] transition-colors duration-500 cursor-default overflow-hidden border border-[#302621]/10"
-              >
-                <div className="absolute top-0 left-0 h-px w-0 bg-[#302621] transition-all duration-500 group-hover:w-full" />
-                <span className="text-xs tracking-[0.4em] text-[#735a4c]">{f.num}</span>
-                <h3 className="mt-7 text-base font-medium text-[#302621] transition-colors duration-300">
-                  {f.title}
-                </h3>
-                <p className="mt-4 text-sm text-[#735a4c] leading-relaxed">{f.desc}</p>
-              </div>
-            ))}
           </div>
 
         </div>
