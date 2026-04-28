@@ -8,7 +8,7 @@ const productCards = [
   {
     num: "01",
     title: "Comfortable Fit",
-    desc: "We have tested all different types and shapes so you don't have to. Quality materials. Shape that fits all. A condom that feels like it's barely there.",
+    desc: "Quality materials. A shape that fits all. A condom that feels like it's barely there.",
   },
   {
     num: "02",
@@ -17,8 +17,8 @@ const productCards = [
   },
   {
     num: "03",
-    title: "BSI & ISO 4074 certified",
-    desc: "All batches are independently tested by the British Standard Institute (BSI) to ISO4074:2015. Our products comply with relevant EU legislation and may be sold anywhere in the European Economic Area.",
+    title: "Premium Quality",
+    desc: "Designed to the highest standards. Natural latex. No compromises — because what you choose matters.",
   },
 ];
 
@@ -29,18 +29,18 @@ const basePrices = [12, 20, 28];
 
 const onePacks = [
   { name: "On the Go",             price: "£4",  qty: "4 condoms",  desc: "Bring on an adventure." },
-  { name: "Bring on an Adventure", price: "£11", qty: "12 condoms", desc: "Always ready, wherever you are." },
+  { name: "Bring on an Adventure", price: "£11", qty: "12 condoms", desc: "Always available, wherever you are." },
   { name: "Stock Up at Home",      price: "£20", qty: "36 condoms", desc: "ALLTID REDO — always prepared." },
 ];
 
 const faqs = [
   {
     q: "Are Bear Condoms safe?",
-    a: "Yes. Condoms are a reliable protection against pregnancy and sexually transmitted infections. Condoms as a contraceptive are 98% effective against pregnancies when used correctly. Bear Condoms are certified with CE and ISO marks, meaning they are verified by international standards to ensure quality and safety.",
+    a: "Yes. Condoms are a reliable protection against pregnancy and sexually transmitted infections. Condoms as a contraceptive are 98% effective when used correctly. Bear is designed to the highest quality standards — because what you choose matters.",
   },
   {
-    q: "How do you quality check your products?",
-    a: "All batches are independently tested by the British Standard Institute (BSI) to ensure they meet the quality required for producing condoms ISO4074:2015. ISO standards demonstrate our ability to consistently provide products and services that meet customer and regulatory requirements. Our products comply with the relevant EU legislation and may be sold anywhere in the European Economic Area (EEA).",
+    q: "What makes Bear high quality?",
+    a: "Bear is built around premium natural latex, a comfortable shape that fits all, and discreet minimalist packaging. We are committed to producing a condom that is genuinely worth choosing — no compromises.",
   },
   {
     q: "What type of lubricant is best to use with Bear Condoms?",
@@ -216,7 +216,7 @@ export default function Home() {
 
         <div className="hero-sub-content flex flex-col items-center">
           <p className="mt-6 text-sm tracking-[0.4em] uppercase text-[#7a715c]">
-            Comfortable Fit · Discreet Packaging · Always Ready
+            Comfortable Fit · Discreet Packaging · Always Available
           </p>
           <p className="mt-6 max-w-sm text-base text-[#7a715c] leading-relaxed">
             Nordic minimalism. Swedish safety. Stockholm chique.
@@ -246,17 +246,32 @@ export default function Home() {
               OUR<br />PRODUCT
             </h2>
             <p className="anim-up text-sm text-[#735a4c] leading-relaxed tracking-[0.08em] uppercase md:text-right max-w-xs">
-              Ultra-thin.<br />
-              Sustainably sourced.<br />
-              ISO 4074 certified.
+              Comfortable Fit.<br />
+              Discreet Packaging.<br />
+              Always Available.
             </p>
           </div>
 
-          {/* Coming soon */}
+          {/* Coming soon + pack sizes */}
           <div className="flex flex-col justify-center items-center py-16 md:py-24 text-center">
             <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Coming Soon</span>
             <p className="mt-6 text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
-              A Nordic condom company. Created by 4 cousins who saw a gap in the market for a stylish, quality condom. By women, for men.
+              A condom designed to be comfortable, discreet, and always within reach.
+            </p>
+            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-2xl">
+              {[
+                { name: "On the Go",             qty: "4 condoms" },
+                { name: "Bring on an Adventure", qty: "12 condoms" },
+                { name: "Stock Up at Home",      qty: "36 condoms" },
+              ].map((pack) => (
+                <div key={pack.name} className="border border-[#302621]/15 p-8 text-left">
+                  <p className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">{pack.qty}</p>
+                  <p className="mt-3 text-base font-medium text-[#302621]">{pack.name}</p>
+                </div>
+              ))}
+            </div>
+            <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
+              Available as a subscription or one-time order — register your interest below
             </p>
           </div>
 
@@ -337,14 +352,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-            <div className="flex items-baseline gap-3 flex-wrap">
-              <span className="text-3xl font-semibold">£{price}</span>
-              <span className="text-base text-[#7a715c]">per delivery · {freqLabels[freqIndex].toLowerCase()}</span>
-              {discount > 0 && (
-                <span className="text-xs tracking-[0.3em] uppercase text-[#735a4c]">Save {discount}%</span>
-              )}
-            </div>
+          <div className="mt-6 flex justify-center">
             <button className="shrink-0 border border-[#eae4d7] px-10 py-4 text-sm tracking-[0.25em] uppercase hover:bg-[#eae4d7] hover:text-[#302621] transition-all duration-300">
               Register Interest
             </button>
@@ -374,12 +382,9 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {onePacks.map((pack) => (
               <div key={pack.name} className="p-8 bg-[#eae4d7] text-[#302621]">
-                <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">{pack.name}</span>
-                <div className="mt-3 flex items-baseline gap-2">
-                  <span className="text-4xl font-semibold">{pack.price}</span>
-                </div>
+                <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">{pack.qty}</span>
+                <p className="mt-3 text-xl font-semibold">{pack.name}</p>
                 <div className="my-6 h-px bg-[#302621]/10" />
-                <p className="text-base font-medium">{pack.qty}</p>
                 <p className="mt-4 text-sm text-[#7a715c] leading-relaxed">{pack.desc}</p>
                 <button className="mt-8 w-full py-3.5 text-sm tracking-[0.25em] uppercase border border-[#302621] hover:bg-[#302621] hover:text-[#eae4d7] transition-all duration-300">
                   Register Interest
@@ -422,7 +427,7 @@ export default function Home() {
               </div>
               <div className="md:w-2/3 space-y-6 pt-1">
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
-                  We have tested all different types and shapes so you don&apos;t have to. Quality materials. A shape that fits all.
+                  Quality materials. A shape that fits all. A condom that feels like it&apos;s barely there.
                 </p>
                 <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#eae4d7]/70">
                   Bear Brown — discreet, minimalistic and stylish. Innovative packaging{" "}
@@ -510,7 +515,7 @@ export default function Home() {
             BEAR
             <br />
             <span className="text-[#735a4c] transition-colors duration-500 hover:text-[#7a715c] cursor-default">
-              IS COMING.
+              CONDOMS COMING SOON.
             </span>
           </h2>
           <a
@@ -523,17 +528,44 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ── Join our Journey ─────────────────────────────────────────────── */}
+      <section className="py-40 px-8 bg-[#2a1f1a] border-t border-[#ffffff06] text-center">
+        <div className="zoom-in max-w-3xl mx-auto">
+          <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Follow along</span>
+          <h2 className="anim-up mt-6 text-[clamp(2.5rem,7vw,5.5rem)] font-bold leading-[1.05] text-[#eae4d7]">
+            JOIN OUR<br />JOURNEY
+          </h2>
+          <p className="anim-up mt-8 text-base text-[#7a715c] max-w-sm mx-auto leading-relaxed">
+            We&apos;re building something. Come along for the ride — behind the scenes, updates, and the full Bear story.
+          </p>
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { label: "Instagram", handle: "@bearnordic" },
+              { label: "TikTok",    handle: "@bearnordic" },
+              { label: "Facebook",  handle: "Bear Nordic" },
+            ].map(({ label, handle }) => (
+              <a
+                key={label}
+                href="#"
+                className="group flex flex-col items-center gap-4 border border-[#4a3d33] px-8 py-10 hover:border-[#9a8d81] hover:bg-[#302621]/40 transition-all duration-400"
+              >
+                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
+                  {label}
+                </span>
+                <span className="text-xl font-semibold text-[#eae4d7]">{handle}</span>
+                <span className="text-xs tracking-[0.3em] uppercase text-[#735a4c] group-hover:translate-x-1 transition-transform duration-300">
+                  Follow →
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* ── Footer ───────────────────────────────────────────────────────── */}
       <footer className="py-10 px-8 border-t border-[#3a2e26]">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-[#735a4c]">
           <span className="text-sm tracking-[0.5em] uppercase">Bear — A Nordic Condom Company</span>
-          <div className="flex items-center gap-8 text-sm tracking-wider">
-            {["Instagram", "Facebook", "TikTok"].map((link) => (
-              <a key={link} href="#" className="hover:text-[#7a715c] transition-colors duration-200">
-                {link}
-              </a>
-            ))}
-          </div>
           <div className="flex items-center gap-8 text-sm tracking-wider">
             {["Privacy", "Terms", "Contact"].map((link) => (
               <a key={link} href="#" className="hover:text-[#7a715c] transition-colors duration-200">
