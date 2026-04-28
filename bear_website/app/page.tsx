@@ -243,7 +243,7 @@ export default function Home() {
             <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
               A condom designed to be comfortable, discreet, and always within reach.
             </p>
-            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl">
+            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
               {[
                 { src: "/4.png", label: "On the Go · 4 condoms" },
                 { src: "/5.png", label: "Bring on an Adventure · 12 condoms" },
@@ -279,69 +279,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ── Subscription ─────────────────────────────────────────────────── */}
-      <section id="subscription" className="py-32 px-8 bg-[#2a1f1a] border-t border-[#ffffff06]">
-        <div className="max-w-2xl mx-auto">
-          <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscription</span>
-            <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold">
-              Alltid redo.
-            </h2>
-            <p className="mt-4 text-base text-[#7a715c] max-w-sm mx-auto leading-relaxed">
-              After one click you will always have a condom available. Pause the subscription at any time. As we say in the Swedish scout core: always ready.
-            </p>
-          </div>
-
-          <div className="bg-[#eae4d7] text-[#302621] p-10">
-            <div className="space-y-8">
-              <div>
-                <p className="text-xs tracking-[0.4em] uppercase text-[#735a4c] mb-4">How often</p>
-                <div className="flex gap-3">
-                  {freqLabels.map((label, i) => (
-                    <button
-                      key={label}
-                      onClick={() => setFreqIndex(i)}
-                      className={`flex-1 py-3 text-sm tracking-[0.2em] uppercase border transition-all duration-200 ${
-                        freqIndex === i
-                          ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                          : "border-[#302621]/20 hover:border-[#302621]/60"
-                      }`}
-                    >
-                      {label}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              <div className="h-px bg-[#302621]/10" />
-
-              <div>
-                <p className="text-xs tracking-[0.4em] uppercase text-[#735a4c] mb-4">Pack size</p>
-                <div className="flex gap-3">
-                  {qtyOptions.map((qty, i) => (
-                    <button
-                      key={qty}
-                      onClick={() => setQtyIndex(i)}
-                      className={`flex-1 py-3 text-sm tracking-[0.2em] uppercase border transition-all duration-200 ${
-                        qtyIndex === i
-                          ? "bg-[#302621] text-[#eae4d7] border-[#302621]"
-                          : "border-[#302621]/20 hover:border-[#302621]/60"
-                      }`}
-                    >
-                      {qty}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <p className="mt-8 text-center text-sm text-[#4a3d33] tracking-wide">
-            No charge until we launch. Cancel any time before then.
-          </p>
-        </div>
-      </section>
-
       {/* ── Vision & Mission ─────────────────────────────────────────────── */}
       <section id="vision-mission" className="border-t border-[#302621]/10">
 
@@ -368,7 +305,7 @@ export default function Home() {
                   By women,<br />for men.
                 </h2>
                 <p className="anim-up mt-4 text-sm text-[#eae4d7]/60 leading-relaxed">
-                  Designed in Sweden, where simplicity is a standard — not a trend.
+                  Designed in Sweden — where minimalism is a way of life and safety is never compromised.
                 </p>
               </div>
               <div className="md:w-2/3 space-y-6 pt-1">
@@ -403,9 +340,49 @@ export default function Home() {
                 Four cousins. One shared frustration. A belief that the right product, presented the right way, could genuinely change behaviour — and make protection something people are proud to choose.
               </p>
               <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
-                Presented by Francisco Andrade.
+                We wanted to be a contrast to the manosphere. A different kind of masculinity — one that is confident, caring, and switched on. Men who look after themselves and the people they&apos;re with.
+              </p>
+              <p className="anim-up text-[clamp(1rem,2vw,1.25rem)] font-light leading-relaxed text-[#7a715c]">
+                Because protection shouldn&apos;t be something you tolerate.{" "}
+                <span className="text-[#eae4d7]">It should be something you want.</span>
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Join our Journey ─────────────────────────────────────────────── */}
+      <section className="py-40 px-8 bg-[#2a1f1a] border-t border-[#ffffff06] text-center">
+        <div className="zoom-in max-w-3xl mx-auto">
+          <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Follow along</span>
+          <h2 className="anim-up mt-6 text-[clamp(2.5rem,7vw,5.5rem)] font-bold leading-[1.05] text-[#eae4d7]">
+            JOIN OUR<br />JOURNEY
+          </h2>
+          <p className="anim-up mt-8 text-base text-[#7a715c] max-w-sm mx-auto leading-relaxed">
+            We&apos;re building something. Come along for the ride — behind the scenes, updates, and the full Bear story.
+          </p>
+          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
+            {[
+              { label: "Instagram", handle: "@bearnordic_official", href: "https://www.instagram.com/bearnordic_official/" },
+              { label: "TikTok",    handle: "@bearnordic_official", href: "https://www.tiktok.com/@bearnordic_official?lang=en-GB" },
+              { label: "Facebook",  handle: "Bear Nordic",          href: "https://www.facebook.com/profile.php?id=61588307767398" },
+            ].map(({ label, handle, href }) => (
+              <a
+                key={label}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col items-center gap-4 border border-[#4a3d33] px-8 py-10 hover:border-[#9a8d81] hover:bg-[#302621]/40 transition-all duration-400"
+              >
+                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
+                  {label}
+                </span>
+                <span className="text-xl font-semibold text-[#eae4d7]">{handle}</span>
+                <span className="text-xs tracking-[0.3em] uppercase text-[#735a4c] group-hover:translate-x-1 transition-transform duration-300">
+                  Follow →
+                </span>
+              </a>
+            ))}
           </div>
         </div>
       </section>
@@ -457,42 +434,6 @@ export default function Home() {
               CONDOMS COMING SOON.
             </span>
           </h2>
-        </div>
-      </section>
-
-      {/* ── Join our Journey ─────────────────────────────────────────────── */}
-      <section className="py-40 px-8 bg-[#2a1f1a] border-t border-[#ffffff06] text-center">
-        <div className="zoom-in max-w-3xl mx-auto">
-          <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Follow along</span>
-          <h2 className="anim-up mt-6 text-[clamp(2.5rem,7vw,5.5rem)] font-bold leading-[1.05] text-[#eae4d7]">
-            JOIN OUR<br />JOURNEY
-          </h2>
-          <p className="anim-up mt-8 text-base text-[#7a715c] max-w-sm mx-auto leading-relaxed">
-            We&apos;re building something. Come along for the ride — behind the scenes, updates, and the full Bear story.
-          </p>
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { label: "Instagram", handle: "@bearnordic_official", href: "https://www.instagram.com/bearnordic_official/" },
-              { label: "TikTok",    handle: "@bearnordic_official", href: "https://www.tiktok.com/@bearnordic_official?lang=en-GB" },
-              { label: "Facebook",  handle: "Bear Nordic",          href: "https://www.facebook.com/profile.php?id=61588307767398" },
-            ].map(({ label, handle, href }) => (
-              <a
-                key={label}
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col items-center gap-4 border border-[#4a3d33] px-8 py-10 hover:border-[#9a8d81] hover:bg-[#302621]/40 transition-all duration-400"
-              >
-                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
-                  {label}
-                </span>
-                <span className="text-xl font-semibold text-[#eae4d7]">{handle}</span>
-                <span className="text-xs tracking-[0.3em] uppercase text-[#735a4c] group-hover:translate-x-1 transition-transform duration-300">
-                  Follow →
-                </span>
-              </a>
-            ))}
-          </div>
         </div>
       </section>
 
