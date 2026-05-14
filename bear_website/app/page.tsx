@@ -352,24 +352,26 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <div className="mt-10 max-w-2xl mx-auto text-center">
-              <p className="text-sm text-[#735a4c] leading-relaxed mb-6">
-                Already know your size in another condom?<br />We&apos;ll translate it to Bear.
-              </p>
-              <SizeTranslator />
-            </div>
-            <div className="mt-10 text-center">
-              <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-4">Not sure about your size?</p>
-              <button
-                onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
-                className="text-sm tracking-[0.2em] uppercase border border-[#302621]/30 px-8 py-3 text-[#302621] hover:border-[#302621] transition-all duration-300"
-              >
-                Find Your Perfect Fit
-              </button>
-            </div>
           </div>
 
         </div>
+
+        <div className="max-w-2xl mx-auto mt-20 text-center border-t border-[#302621]/10 pt-16 pb-8">
+          <div className="mb-10">
+            <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-4">Not sure about your size?</p>
+            <button
+              onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
+              className="text-sm tracking-[0.2em] uppercase border border-[#302621]/30 px-8 py-3 text-[#302621] hover:border-[#302621] transition-all duration-300"
+            >
+              Find Your Perfect Fit
+            </button>
+          </div>
+          <p className="text-sm text-[#735a4c] leading-relaxed mb-6">
+            Already know your size in another condom?<br />We&apos;ll translate it to Bear.
+          </p>
+          <SizeTranslator />
+        </div>
+
       </section>
 
       {/* ── Subscriptions ────────────────────────────────────────────────── */}
