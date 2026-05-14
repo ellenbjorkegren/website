@@ -68,6 +68,35 @@ const faqs = [
   },
 ];
 
+const sizeMap = [
+  { label: "RFSU Profil", bear: "N4" },
+  { label: "RFSU Grande", bear: "N5" },
+  { label: "RFSU Beyond Thin", bear: "N4" },
+];
+
+function SizeTranslator() {
+  const [selected, setSelected] = useState<number | null>(null);
+  return (
+    <div className="flex flex-col items-center gap-4">
+      <select
+        className="w-full max-w-xs bg-[#eae4d7] border border-[#302621]/20 text-[#302621] text-sm tracking-[0.1em] px-4 py-3 focus:outline-none focus:border-[#302621] transition-colors duration-200 appearance-none cursor-pointer"
+        value={selected ?? ""}
+        onChange={(e) => setSelected(e.target.value === "" ? null : Number(e.target.value))}
+      >
+        <option value="" disabled>Select your current condom</option>
+        {sizeMap.map((s, i) => (
+          <option key={s.label} value={i}>{s.label}</option>
+        ))}
+      </select>
+      {selected !== null && (
+        <p className="text-sm tracking-[0.2em] text-[#302621]">
+          Your Bear size: <span className="font-semibold">{sizeMap[selected].bear}</span>
+        </p>
+      )}
+    </div>
+  );
+}
+
 export default function Home() {
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
@@ -322,6 +351,12 @@ export default function Home() {
                   </div>
                 </div>
               ))}
+            </div>
+            <div className="mt-10 max-w-2xl mx-auto text-center">
+              <p className="text-sm text-[#735a4c] leading-relaxed mb-6">
+                Already know your size in another condom?<br />We&apos;ll translate it to Bear.
+              </p>
+              <SizeTranslator />
             </div>
           </div>
 
