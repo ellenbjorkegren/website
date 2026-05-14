@@ -79,7 +79,7 @@ function SizeTranslator() {
   return (
     <div className="flex flex-col items-center gap-4">
       <select
-        className="w-full max-w-xs bg-[#eae4d7] border border-[#302621]/20 text-[#302621] text-sm tracking-[0.1em] px-4 py-3 focus:outline-none focus:border-[#302621] transition-colors duration-200 appearance-none cursor-pointer"
+        className="w-full max-w-xs mx-auto block bg-[#eae4d7] border border-[#302621]/20 text-[#302621] text-sm tracking-[0.1em] px-4 py-3 focus:outline-none focus:border-[#302621] transition-colors duration-200 appearance-none cursor-pointer"
         value={selected ?? ""}
         onChange={(e) => setSelected(e.target.value === "" ? null : Number(e.target.value))}
       >
@@ -365,25 +365,22 @@ export default function Home() {
 
       {/* ── Subscriptions ────────────────────────────────────────────────── */}
       <section className="bg-[#2a1f1a] py-24 px-8 border-t border-[#302621]/10">
-        <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-12">
-          <div className="md:w-1/2">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8">
+          <div>
             <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscriptions</span>
             <h2 className="mt-4 text-[clamp(2rem,5vw,3.5rem)] font-light leading-tight text-[#eae4d7]">
               Protection.<br />Delivered.
             </h2>
           </div>
-          <div className="md:w-1/2">
-            <p className="text-sm text-[#7a715c] leading-relaxed mb-6">
-              Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it.
-            </p>
-            <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-8">
-              Pause anytime · Subscriptions launching soon
-            </p>
+          <p className="text-sm text-[#7a715c] leading-relaxed max-w-md">
+            Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it. Pause anytime.
+          </p>
+          <div className="flex flex-col items-center gap-4">
             <button
               onClick={() => { setShowOrderModal(true); setOrderTab(0); }}
               className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
             >
-              Order Now
+              Subscription Coming Soon
             </button>
           </div>
         </div>
@@ -686,7 +683,7 @@ export default function Home() {
           onClick={() => setShowOrderModal(false)}
         >
           <div
-            className="bg-[#eae4d7] text-[#302621] w-full max-w-lg"
+            className="bg-[#eae4d7] text-[#302621] w-full"
             onClick={(e) => e.stopPropagation()}
           >
             {/* Tabs */}
