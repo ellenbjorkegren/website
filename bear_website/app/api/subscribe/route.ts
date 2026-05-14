@@ -9,16 +9,22 @@ export async function POST(req: NextRequest) {
 
   const scriptUrl = process.env.GOOGLE_SCRIPT_URL;
   if (!scriptUrl) {
+    console.error("GOOGLE_SCRIPT_URL is not set");
     return NextResponse.json({ error: "Not configured" }, { status: 500 });
   }
 
-  const res = await fetch(scriptUrl, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ firstName, email }),
-  });
-
-  if (!res.ok) {
+  try {
+    const res = await fetch(scriptUrl, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ firstName, email }),
+      redirect: "follow",
+    });
+    console.log("Apps Script response status:", res.status);
+    const text = await res.text();
+    console.log("Apps Script response body:", text);
+  } catch (err) {
+    console.error("Fetch to Apps Script failed:", err);
     return NextResponse.json({ error: "Failed to submit" }, { status: 500 });
   }
 
