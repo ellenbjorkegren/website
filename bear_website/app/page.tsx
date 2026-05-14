@@ -290,7 +290,7 @@ export default function Home() {
                   key={s.size}
                   className="bg-[#302621] p-12 flex flex-col items-center text-center cursor-default"
                 >
-                  <span className="text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#eae4d7]">BEAR {s.size}</span>
+                  <span className="leading-none text-[#eae4d7]" style={{ fontSize: "clamp(2.5rem,5vw,4rem)", letterSpacing: "0.08em", fontWeight: 400 }}>BEAR {s.size}</span>
                   <div className="mt-6 space-y-1 text-sm tracking-[0.2em] uppercase text-[#7a715c]">
                     <p>Width: {s.width}</p>
                     <p>Length: 190 mm</p>
