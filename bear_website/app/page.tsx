@@ -268,21 +268,26 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Product cards */}
-          <div className="card-group grid grid-cols-1 md:grid-cols-3 gap-px bg-[#302621]/10 mb-16">
-            {productCards.map((f) => (
-              <div
-                key={f.num}
-                className="anim-card group relative bg-[#eae4d7] p-10 hover:bg-[#d9cdb8] transition-colors duration-500 cursor-default overflow-hidden border border-[#302621]/10"
-              >
-                <div className="absolute top-0 left-0 h-px w-0 bg-[#302621] transition-all duration-500 group-hover:w-full" />
-                <span className="text-xs tracking-[0.4em] text-[#735a4c]">{f.num}</span>
-                <h3 className="mt-7 text-base font-medium text-[#302621] transition-colors duration-300">
-                  {f.title}
-                </h3>
-                <p className="mt-4 text-sm text-[#735a4c] leading-relaxed">{f.desc}</p>
-              </div>
-            ))}
+          {/* Size selector */}
+          <div className="mb-16">
+            <p className="text-center text-sm tracking-[0.3em] uppercase text-[#735a4c] mb-10">
+              Choose your size for a perfect fit
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+              {[
+                { size: "4", width: "53 mm", desc: "Standard width — fits most." },
+                { size: "5", width: "56 mm", desc: "Slightly wider — for extra comfort." },
+              ].map((s) => (
+                <div
+                  key={s.size}
+                  className="group border border-[#302621]/20 bg-[#eae4d7] hover:bg-[#d9cdb8] transition-colors duration-500 p-12 flex flex-col items-center text-center cursor-default"
+                >
+                  <span className="text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#302621]">{s.size}</span>
+                  <span className="mt-4 text-sm tracking-[0.3em] uppercase text-[#735a4c]">{s.width}</span>
+                  <p className="mt-4 text-sm text-[#735a4c] leading-relaxed">{s.desc}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Pack sizes */}
