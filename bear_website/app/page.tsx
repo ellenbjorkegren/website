@@ -274,13 +274,13 @@ export default function Home() {
           <p className="mt-6 max-w-sm text-base text-[#7a715c] leading-relaxed">
             Nordic minimalism. Swedish safety.
           </p>
-          <p className="mt-10 text-xs tracking-[0.5em] uppercase text-[#735a4c]">
+          <p className="mt-10 text-sm tracking-[0.5em] uppercase text-[#735a4c]">
             Coming Soon
           </p>
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3">
-          <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">Scroll</span>
+          <span className="text-sm tracking-[0.4em] uppercase text-[#735a4c]">Scroll</span>
           <div className="w-px h-10 bg-gradient-to-b from-[#735a4c] to-transparent" />
         </div>
       </section>
@@ -315,7 +315,7 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
+            <p className="mt-8 text-sm tracking-[0.3em] uppercase text-[#735a4c]">
               Available as a subscription or one-time order at launch
             </p>
           </div>
@@ -358,7 +358,7 @@ export default function Home() {
 
         <div className="max-w-2xl mx-auto mt-20 text-center border-t border-[#302621]/10 pt-16 pb-8">
           <div className="mb-10">
-            <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-4">Not sure about your size?</p>
+            <p className="text-sm tracking-[0.3em] uppercase text-[#735a4c] mb-4">Not sure about your size?</p>
             <button
               onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
               className="text-sm tracking-[0.2em] uppercase border border-[#302621]/30 px-8 py-3 text-[#302621] hover:border-[#302621] transition-all duration-300"
@@ -378,7 +378,7 @@ export default function Home() {
       <section className="bg-[#2a1f1a] py-24 px-8 border-t border-[#302621]/10">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center gap-8">
           <div>
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscriptions</span>
+            <span className="text-sm tracking-[0.5em] uppercase text-[#735a4c]">Subscriptions</span>
             <h2 className="mt-4 text-[clamp(2rem,5vw,3.5rem)] font-light leading-tight text-[#eae4d7]">
               Protection<br />Delivered
             </h2>
@@ -427,7 +427,7 @@ export default function Home() {
 
             <div className="flex flex-col md:flex-row md:items-start gap-16">
               <div className="md:w-1/3 shrink-0">
-                <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#eae4d7]/60">Our Vision</span>
+                <span className="anim-up text-sm tracking-[0.5em] uppercase text-[#eae4d7]/60">Our Vision</span>
                 <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.5rem)] font-semibold leading-tight text-[#eae4d7]">
                   By women,<br />for men.
                 </h2>
@@ -457,7 +457,7 @@ export default function Home() {
       <section id="founder" className="py-40 px-8 border-t border-[#ffffff06]">
         <div className="max-w-4xl mx-auto">
           <div className="zoom-in">
-            <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Our Story</span>
+            <span className="anim-up text-sm tracking-[0.5em] uppercase text-[#735a4c]">Our Story</span>
             <h2 className="anim-up mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold leading-tight">
               A family company<br />
               <span className="text-[#735a4c]">driven by conviction.</span>
@@ -481,7 +481,7 @@ export default function Home() {
       {/* ── Join our Journey ─────────────────────────────────────────────── */}
       <section className="py-40 px-8 bg-[#2a1f1a] border-t border-[#ffffff06] text-center">
         <div className="zoom-in max-w-3xl mx-auto">
-          <span className="anim-up text-xs tracking-[0.5em] uppercase text-[#735a4c]">Follow along</span>
+          <span className="anim-up text-sm tracking-[0.5em] uppercase text-[#735a4c]">Follow along</span>
           <h2 className="anim-up mt-6 text-[clamp(2.5rem,7vw,5.5rem)] font-bold leading-[1.05] text-[#eae4d7]">
             JOIN OUR<br />JOURNEY
           </h2>
@@ -501,11 +501,11 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="group flex flex-col items-center gap-4 border border-[#4a3d33] px-8 py-10 hover:border-[#9a8d81] hover:bg-[#302621]/40 transition-all duration-400"
               >
-                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
+                <span className="text-sm tracking-[0.5em] uppercase text-[#735a4c] group-hover:text-[#9a8d81] transition-colors duration-300">
                   {label}
                 </span>
                 <span className="text-xl font-semibold text-[#eae4d7]">{handle}</span>
-                <span className="text-xs tracking-[0.3em] uppercase text-[#735a4c] group-hover:translate-x-1 transition-transform duration-300">
+                <span className="text-sm tracking-[0.3em] uppercase text-[#735a4c] group-hover:translate-x-1 transition-transform duration-300">
                   Follow →
                 </span>
               </a>
@@ -531,7 +531,7 @@ export default function Home() {
       <section id="faq" className="py-32 px-8 bg-[#eae4d7] border-t border-[#302621]/10">
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">FAQ</span>
+            <span className="text-sm tracking-[0.5em] uppercase text-[#735a4c]">FAQ</span>
             <h2 className="mt-5 text-[clamp(1.75rem,3vw,2.75rem)] font-semibold text-[#302621]">
               Questions answered.
             </h2>
@@ -606,12 +606,12 @@ export default function Home() {
             </button>
             {nlStatus === "success" ? (
               <div className="text-center py-6">
-                <p className="text-xs tracking-[0.5em] uppercase text-[#735a4c] mb-3">You&apos;re in.</p>
+                <p className="text-sm tracking-[0.5em] uppercase text-[#735a4c] mb-3">You&apos;re in.</p>
                 <p className="text-base font-medium">Thanks for signing up.<br />We&apos;ll be in touch.</p>
               </div>
             ) : (
               <>
-                <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Newsletter</span>
+                <span className="text-sm tracking-[0.5em] uppercase text-[#735a4c]">Newsletter</span>
                 <h3 className="mt-3 text-xl font-semibold">Stay in the loop.</h3>
                 <p className="mt-2 text-sm text-[#7a715c] leading-relaxed">Be the first to know when Bear launches.</p>
                 <form onSubmit={handleNewsletterSubmit} className="mt-8 space-y-4">
@@ -632,7 +632,7 @@ export default function Home() {
                     className="w-full border border-[#302621]/20 bg-transparent px-4 py-3 text-sm placeholder-[#735a4c] focus:outline-none focus:border-[#302621] transition-colors duration-200"
                   />
                   {nlStatus === "error" && (
-                    <p className="text-xs text-red-600">Something went wrong. Please try again.</p>
+                    <p className="text-sm text-red-600">Something went wrong. Please try again.</p>
                   )}
                   <button
                     type="submit"
@@ -665,7 +665,7 @@ export default function Home() {
             >
               Close
             </button>
-            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Your subscription</span>
+            <span className="text-sm tracking-[0.5em] uppercase text-[#735a4c]">Your subscription</span>
             <h3 className="mt-3 text-xl font-semibold">Active</h3>
             <div className="my-7 h-px bg-[#302621]/10" />
             <ul className="space-y-3">
@@ -680,7 +680,7 @@ export default function Home() {
             </ul>
             <div className="my-7 h-px bg-[#302621]/10" />
             <div className="bg-[#302621]/5 px-5 py-4">
-              <p className="text-xs tracking-[0.4em] uppercase text-[#735a4c] mb-1">Next shipment</p>
+              <p className="text-sm tracking-[0.4em] uppercase text-[#735a4c] mb-1">Next shipment</p>
               <p className="text-base font-medium">15 April 2026</p>
               <p className="mt-0.5 text-sm text-[#7a715c]">Dispatched to your address on file</p>
             </div>
@@ -712,7 +712,7 @@ export default function Home() {
                 <button
                   key={tab}
                   onClick={() => setOrderTab(i)}
-                  className={`py-5 text-xs tracking-[0.2em] uppercase transition-colors duration-200 ${
+                  className={`py-5 text-sm tracking-[0.2em] uppercase transition-colors duration-200 ${
                     orderTab === i
                       ? "bg-[#302621] text-[#eae4d7]"
                       : "text-[#735a4c] hover:text-[#302621]"
@@ -725,7 +725,7 @@ export default function Home() {
 
             {/* Content */}
             <div className="flex flex-col items-center justify-center py-24 px-8 text-center">
-              <p className="text-xs tracking-[0.5em] uppercase text-[#735a4c] mb-4">
+              <p className="text-sm tracking-[0.5em] uppercase text-[#735a4c] mb-4">
                 {["Subscriptions", "One Time Orders", "Other Products"][orderTab]}
               </p>
               <p
@@ -741,7 +741,7 @@ export default function Home() {
               </p>
               <button
                 onClick={() => { setShowOrderModal(false); setShowNewsletterModal(true); setNlStatus("idle"); }}
-                className="mt-8 text-xs tracking-[0.3em] uppercase border border-[#302621]/20 px-6 py-2.5 text-[#735a4c] hover:border-[#302621] hover:text-[#302621] transition-all duration-300"
+                className="mt-8 text-sm tracking-[0.3em] uppercase border border-[#302621]/20 px-6 py-2.5 text-[#735a4c] hover:border-[#302621] hover:text-[#302621] transition-all duration-300"
               >
                 Get notified at launch — Subscribe to our newsletter
               </button>
@@ -750,7 +750,7 @@ export default function Home() {
             <div className="border-t border-[#302621]/10 px-8 py-5 flex justify-end">
               <button
                 onClick={() => setShowOrderModal(false)}
-                className="text-xs tracking-[0.3em] uppercase text-[#735a4c] hover:text-[#302621] transition-colors duration-200"
+                className="text-sm tracking-[0.3em] uppercase text-[#735a4c] hover:text-[#302621] transition-colors duration-200"
               >
                 Close
               </button>
