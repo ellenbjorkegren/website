@@ -283,15 +283,14 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               {[
-                { size: "4", width: "53 mm" },
-                { size: "5", width: "56 mm" },
+                { size: "N4", width: "53 mm" },
+                { size: "N5", width: "56 mm" },
               ].map((s) => (
                 <div
                   key={s.size}
                   className="bg-[#302621] p-12 flex flex-col items-center text-center cursor-default"
                 >
-                  <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">BEAR</span>
-                  <span className="mt-2 text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#eae4d7]">{s.size}</span>
+                  <span className="text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#eae4d7]">BEAR {s.size}</span>
                   <div className="mt-6 space-y-1 text-sm tracking-[0.2em] uppercase text-[#7a715c]">
                     <p>Width: {s.width}</p>
                     <p>Length: 190 mm</p>
