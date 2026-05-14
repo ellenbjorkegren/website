@@ -391,13 +391,6 @@ export default function Home() {
             >
               Subscription Coming Soon
             </button>
-            <p className="text-sm text-[#735a4c]">Commitment Issues?</p>
-            <button
-              onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
-              className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
-            >
-              Try Us Out First
-            </button>
           </div>
         </div>
       </section>
@@ -407,6 +400,15 @@ export default function Home() {
 
         {/* Vision copy */}
         <div className="relative py-40 px-8 overflow-hidden bg-[#2a1f1a]">
+          <div className="flex flex-col items-center gap-4 mb-16">
+            <p className="text-sm text-[#7a715c]">Commitment Issues?</p>
+            <button
+              onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
+              className="text-sm tracking-[0.2em] uppercase border border-[#eae4d7]/30 px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
+            >
+              Try Us Out First
+            </button>
+          </div>
           <div />
           <div className="relative z-10 max-w-4xl mx-auto">
             <div className="zoom-in">
@@ -735,6 +737,12 @@ export default function Home() {
                 {orderTab === 1 && "One-time orders of Bear condoms in your preferred pack size."}
                 {orderTab === 2 && "More from Bear Nordic — launching soon."}
               </p>
+              <button
+                onClick={() => { setShowOrderModal(false); setShowNewsletterModal(true); setNlStatus("idle"); }}
+                className="mt-8 text-xs tracking-[0.3em] uppercase border border-[#302621]/20 px-6 py-2.5 text-[#735a4c] hover:border-[#302621] hover:text-[#302621] transition-all duration-300"
+              >
+                Get notified at launch — Subscribe to our newsletter
+              </button>
             </div>
 
             <div className="border-t border-[#302621]/10 px-8 py-5 flex justify-end">
