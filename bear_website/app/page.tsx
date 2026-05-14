@@ -161,6 +161,8 @@ export default function Home() {
   const [freqIndex, setFreqIndex] = useState(0);
   const [qtyIndex, setQtyIndex] = useState(0);
   const [openFaq, setOpenFaq] = useState<number | null>(null);
+  const [showOrderModal, setShowOrderModal] = useState(false);
+  const [orderTab, setOrderTab] = useState(0);
   const [showNewsletterModal, setShowNewsletterModal] = useState(false);
   const [nlFirstName, setNlFirstName] = useState("");
   const [nlEmail, setNlEmail] = useState("");
@@ -271,7 +273,7 @@ export default function Home() {
           {/* Pack sizes */}
           <div className="flex flex-col justify-center items-center py-8 text-center mb-16">
             <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
-              A condom designed to be comfortable, discreet, and always within reach.
+              A condom designed to be comfortable, discreet, and always within reach. Packaging for every occasion.
             </p>
             <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
               {[
@@ -323,6 +325,32 @@ export default function Home() {
             </div>
           </div>
 
+        </div>
+      </section>
+
+      {/* ── Subscriptions ────────────────────────────────────────────────── */}
+      <section className="bg-[#2a1f1a] py-24 px-8 border-t border-[#302621]/10">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-12">
+          <div className="md:w-1/2">
+            <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscriptions</span>
+            <h2 className="mt-4 text-[clamp(2rem,5vw,3.5rem)] font-light leading-tight text-[#eae4d7]">
+              Protection.<br />Delivered.
+            </h2>
+          </div>
+          <div className="md:w-1/2">
+            <p className="text-sm text-[#7a715c] leading-relaxed mb-6">
+              Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it.
+            </p>
+            <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-8">
+              Subscriptions launching soon
+            </p>
+            <button
+              onClick={() => { setShowOrderModal(true); setOrderTab(0); }}
+              className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
+            >
+              Order Now
+            </button>
+          </div>
         </div>
       </section>
 
@@ -610,6 +638,63 @@ export default function Home() {
               </button>
               <button className="w-full py-3 text-sm tracking-[0.25em] uppercase text-[#735a4c] hover:text-[#302621] transition-colors duration-200">
                 Cancel subscription
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ── Order Modal ──────────────────────────────────────────────────── */}
+      {showOrderModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-[#302621]/80 backdrop-blur-sm px-4"
+          onClick={() => setShowOrderModal(false)}
+        >
+          <div
+            className="bg-[#eae4d7] text-[#302621] w-full max-w-lg"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Tabs */}
+            <div className="grid grid-cols-3 border-b border-[#302621]/10">
+              {["Subscriptions", "One Time Orders", "Other Products"].map((tab, i) => (
+                <button
+                  key={tab}
+                  onClick={() => setOrderTab(i)}
+                  className={`py-5 text-xs tracking-[0.2em] uppercase transition-colors duration-200 ${
+                    orderTab === i
+                      ? "bg-[#302621] text-[#eae4d7]"
+                      : "text-[#735a4c] hover:text-[#302621]"
+                  }`}
+                >
+                  {tab}
+                </button>
+              ))}
+            </div>
+
+            {/* Content */}
+            <div className="flex flex-col items-center justify-center py-24 px-8 text-center">
+              <p className="text-xs tracking-[0.5em] uppercase text-[#735a4c] mb-4">
+                {["Subscriptions", "One Time Orders", "Other Products"][orderTab]}
+              </p>
+              <p
+                className="font-light leading-none"
+                style={{ fontSize: "clamp(2.5rem,8vw,5rem)", letterSpacing: "0.08em" }}
+              >
+                Coming<br />Soon.
+              </p>
+              <p className="mt-8 text-sm text-[#735a4c] leading-relaxed max-w-xs">
+                {orderTab === 0 && "Monthly and bimonthly delivery of 12 condoms — straight to your door."}
+                {orderTab === 1 && "One-time orders of Bear condoms in your preferred pack size."}
+                {orderTab === 2 && "More from Bear Nordic — launching soon."}
+              </p>
+            </div>
+
+            <div className="border-t border-[#302621]/10 px-8 py-5 flex justify-end">
+              <button
+                onClick={() => setShowOrderModal(false)}
+                className="text-xs tracking-[0.3em] uppercase text-[#735a4c] hover:text-[#302621] transition-colors duration-200"
+              >
+                Close
               </button>
             </div>
           </div>
