@@ -275,16 +275,20 @@ export default function Home() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
               {[
-                { size: "4", width: "53 mm", desc: "Standard width — fits most." },
-                { size: "5", width: "56 mm", desc: "Slightly wider — for extra comfort." },
+                { size: "4", width: "53 mm" },
+                { size: "5", width: "56 mm" },
               ].map((s) => (
                 <div
                   key={s.size}
-                  className="group border border-[#302621]/20 bg-[#eae4d7] hover:bg-[#d9cdb8] transition-colors duration-500 p-12 flex flex-col items-center text-center cursor-default"
+                  className="bg-[#302621] p-12 flex flex-col items-center text-center cursor-default"
                 >
-                  <span className="text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#302621]">{s.size}</span>
-                  <span className="mt-4 text-sm tracking-[0.3em] uppercase text-[#735a4c]">{s.width}</span>
-                  <p className="mt-4 text-sm text-[#735a4c] leading-relaxed">{s.desc}</p>
+                  <span className="text-xs tracking-[0.4em] uppercase text-[#735a4c]">BEAR</span>
+                  <span className="mt-2 text-[clamp(3rem,6vw,5rem)] font-bold leading-none text-[#eae4d7]">{s.size}</span>
+                  <div className="mt-6 space-y-1 text-sm tracking-[0.2em] uppercase text-[#7a715c]">
+                    <p>Width: {s.width}</p>
+                    <p>Length: 190 mm</p>
+                    <p>Flared</p>
+                  </div>
                 </div>
               ))}
             </div>
