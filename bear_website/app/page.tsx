@@ -79,7 +79,7 @@ function SizeTranslator() {
   return (
     <div className="flex flex-col items-center gap-4">
       <select
-        className="w-full max-w-xs mx-auto block bg-[#eae4d7] border border-[#302621]/20 text-[#302621] text-sm tracking-[0.1em] px-4 py-3 focus:outline-none focus:border-[#302621] transition-colors duration-200 appearance-none cursor-pointer"
+        className="max-w-xs w-64 bg-[#eae4d7] border border-[#302621]/20 text-[#302621] text-sm tracking-[0.1em] px-4 py-3 focus:outline-none focus:border-[#302621] transition-colors duration-200 appearance-none cursor-pointer"
         value={selected ?? ""}
         onChange={(e) => setSelected(e.target.value === "" ? null : Number(e.target.value))}
       >
@@ -391,11 +391,12 @@ export default function Home() {
             >
               Subscription Coming Soon
             </button>
+            <p className="text-sm text-[#735a4c]">Commitment Issues?</p>
             <button
               onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
-              className="text-sm tracking-[0.2em] uppercase text-[#735a4c] hover:text-[#eae4d7] transition-colors duration-300"
+              className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
             >
-              Commitment Issues?
+              Try Us Out First
             </button>
           </div>
         </div>
