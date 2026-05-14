@@ -323,11 +323,11 @@ export default function Home() {
           {/* Size selector */}
           <div className="mb-16">
             <div className="max-w-2xl mx-auto mb-14 text-center">
-              <p className="text-[clamp(1.1rem,2.5vw,1.5rem)] font-light text-[#302621] leading-relaxed mb-6">
-                We tested so you don&apos;t have to.
+              <p className="text-[clamp(1.5rem,3.5vw,2.5rem)] font-light text-[#302621] leading-relaxed mb-6">
+                Thoughtfully designed.
               </p>
               <p className="text-sm text-[#735a4c] leading-relaxed">
-                Bear condoms have a flared fit — snug at the base, wider at the top — for a more natural and comfortable feel. Two sizes, chosen to fit most. The base ring is kept deliberately thin, so it holds securely without feeling restrictive. Premium latex that stays in place without getting in the way. The kind of protection you stop thinking about.
+                BEAR condoms have a flared fit — snug at the base, wider at the top — for a more natural and comfortable feel. Two sizes, chosen to fit most. The base ring is kept deliberately thin, so it holds securely without feeling restrictive. Premium latex that stays in place without getting in the way. The kind of protection you stop thinking about.
               </p>
             </div>
             <p className="text-center text-sm tracking-[0.3em] uppercase text-[#735a4c] mb-10">
@@ -384,7 +384,7 @@ export default function Home() {
             </h2>
           </div>
           <p className="text-sm text-[#7a715c] leading-relaxed max-w-md">
-            Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it. Pause anytime.
+            Subscribe and get BEAR condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it. Pause anytime.
           </p>
           <div className="flex flex-col items-center gap-8">
             <button
@@ -736,7 +736,7 @@ export default function Home() {
               </p>
               <p className="mt-8 text-sm text-[#735a4c] leading-relaxed max-w-xs">
                 {orderTab === 0 && "Monthly and bimonthly delivery of 12 condoms — straight to your door."}
-                {orderTab === 1 && "One-time orders of Bear condoms in your preferred pack size."}
+                {orderTab === 1 && "One-time orders of BEAR condoms in your preferred pack size."}
                 {orderTab === 2 && "More from Bear Nordic — launching soon."}
               </p>
               <button
