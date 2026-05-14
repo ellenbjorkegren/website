@@ -270,6 +270,14 @@ export default function Home() {
 
           {/* Size selector */}
           <div className="mb-16">
+            <div className="max-w-2xl mx-auto mb-14 text-center">
+              <p className="text-[clamp(1.1rem,2.5vw,1.5rem)] font-light text-[#302621] leading-relaxed mb-6">
+                We tested so you don&apos;t have to.
+              </p>
+              <p className="text-sm text-[#735a4c] leading-relaxed">
+                Bear condoms have a flared fit — snug at the base, wider at the top — for a more natural and comfortable feel. Two sizes, chosen to fit most. The base ring is kept deliberately thin, so it holds securely without feeling restrictive. Premium latex that stays in place without getting in the way. The kind of protection you stop thinking about.
+              </p>
+            </div>
             <p className="text-center text-sm tracking-[0.3em] uppercase text-[#735a4c] mb-10">
               Choose your size for a perfect fit
             </p>
