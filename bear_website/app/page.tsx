@@ -380,19 +380,28 @@ export default function Home() {
           <div>
             <span className="text-xs tracking-[0.5em] uppercase text-[#735a4c]">Subscriptions</span>
             <h2 className="mt-4 text-[clamp(2rem,5vw,3.5rem)] font-light leading-tight text-[#eae4d7]">
-              Protection.<br />Delivered.
+              Protection<br />Delivered
             </h2>
           </div>
           <p className="text-sm text-[#7a715c] leading-relaxed max-w-md">
             Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it. Pause anytime.
           </p>
-          <div className="flex flex-col items-center gap-4">
+          <div className="flex flex-col items-center gap-8">
             <button
               onClick={() => { setShowOrderModal(true); setOrderTab(0); }}
               className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
             >
               Subscription Coming Soon
             </button>
+            <div className="flex flex-col items-center gap-4">
+              <p className="text-sm text-[#7a715c]">Commitment Issues?</p>
+              <button
+                onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
+                className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
+              >
+                Try Us Out First
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -402,15 +411,6 @@ export default function Home() {
 
         {/* Vision copy */}
         <div className="relative py-40 px-8 overflow-hidden bg-[#2a1f1a]">
-          <div className="flex flex-col items-center gap-4 mb-16">
-            <p className="text-sm text-[#7a715c]">Commitment Issues?</p>
-            <button
-              onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
-              className="text-sm tracking-[0.2em] uppercase border border-[#eae4d7]/30 px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
-            >
-              Try Us Out First
-            </button>
-          </div>
           <div />
           <div className="relative z-10 max-w-4xl mx-auto">
             <div className="zoom-in">
