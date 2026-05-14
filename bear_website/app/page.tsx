@@ -268,6 +268,27 @@ export default function Home() {
             </p>
           </div>
 
+          {/* Pack sizes */}
+          <div className="flex flex-col justify-center items-center py-8 text-center mb-16">
+            <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
+              A condom designed to be comfortable, discreet, and always within reach.
+            </p>
+            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
+              {[
+                { src: "/7.png", label: "On the Go · 4 condoms" },
+                { src: "/8.png", label: "Bring on an Adventure · 12 condoms" },
+                { src: "/9.png", label: "Stock Up at Home · 36 condoms" },
+              ].map((pack) => (
+                <div key={pack.src} className="flex flex-col">
+                  <img src={pack.src} alt={pack.label} className="w-full aspect-square object-cover" />
+                </div>
+              ))}
+            </div>
+            <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
+              Available as a subscription or one-time order at launch
+            </p>
+          </div>
+
           {/* Size selector */}
           <div className="mb-16">
             <div className="max-w-2xl mx-auto mb-14 text-center">
@@ -300,27 +321,6 @@ export default function Home() {
                 </div>
               ))}
             </div>
-          </div>
-
-          {/* Pack sizes */}
-          <div className="flex flex-col justify-center items-center py-8 text-center">
-            <p className="text-[clamp(1rem,2vw,1.2rem)] font-light text-[#735a4c] max-w-md leading-relaxed">
-              A condom designed to be comfortable, discreet, and always within reach.
-            </p>
-            <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
-              {[
-                { src: "/7.png", label: "On the Go · 4 condoms" },
-                { src: "/8.png", label: "Bring on an Adventure · 12 condoms" },
-                { src: "/9.png", label: "Stock Up at Home · 36 condoms" },
-              ].map((pack) => (
-                <div key={pack.src} className="flex flex-col">
-                  <img src={pack.src} alt={pack.label} className="w-full aspect-square object-cover" />
-                </div>
-              ))}
-            </div>
-            <p className="mt-8 text-xs tracking-[0.3em] uppercase text-[#735a4c]">
-              Available as a subscription or one-time order at launch
-            </p>
           </div>
 
         </div>
