@@ -309,9 +309,9 @@ export default function Home() {
             </p>
             <div className="mt-14 grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
               {[
-                { src: "/4.png", label: "On the Go · 4 condoms" },
-                { src: "/5.png", label: "Bring on an Adventure · 12 condoms" },
-                { src: "/6.png", label: "Stock Up at Home · 36 condoms" },
+                { src: "/7.png", label: "On the Go · 4 condoms" },
+                { src: "/8.png", label: "Bring on an Adventure · 12 condoms" },
+                { src: "/9.png", label: "Stock Up at Home · 36 condoms" },
               ].map((pack) => (
                 <div key={pack.src} className="flex flex-col">
                   <img src={pack.src} alt={pack.label} className="w-full aspect-square object-cover" />
