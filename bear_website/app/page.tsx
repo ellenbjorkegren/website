@@ -169,11 +169,22 @@ export default function Home() {
   const discount = freqDiscounts[freqIndex];
   const price = Math.round(basePrices[qtyIndex] * (1 - discount / 100));
 
-  function handleNewsletterSubmit(e: React.FormEvent) {
+  async function handleNewsletterSubmit(e: React.FormEvent) {
     e.preventDefault();
-    setNlStatus("success");
-    setNlFirstName("");
-    setNlEmail("");
+    setNlStatus("loading");
+    try {
+      const res = await fetch("/api/subscribe", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ firstName: nlFirstName, email: nlEmail }),
+      });
+      if (!res.ok) throw new Error();
+      setNlStatus("success");
+      setNlFirstName("");
+      setNlEmail("");
+    } catch {
+      setNlStatus("error");
+    }
   }
 
   return (
