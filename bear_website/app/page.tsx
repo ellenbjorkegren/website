@@ -281,17 +281,18 @@ export default function Home() {
             <p className="text-center text-sm tracking-[0.3em] uppercase text-[#735a4c] mb-10">
               Choose your size for a perfect fit
             </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-[#302621]/10 max-w-2xl mx-auto">
               {[
                 { size: "N4", width: "53 mm" },
                 { size: "N5", width: "56 mm" },
               ].map((s) => (
                 <div
                   key={s.size}
-                  className="bg-[#302621] p-12 flex flex-col items-center text-center cursor-default"
+                  className="group relative bg-[#eae4d7] hover:bg-[#d9cdb8] transition-colors duration-500 p-12 flex flex-col items-center text-center cursor-default overflow-hidden border border-[#302621]/10"
                 >
-                  <span className="leading-none text-[#eae4d7]" style={{ fontSize: "clamp(2.5rem,5vw,4rem)", letterSpacing: "0.08em", fontWeight: 400 }}>BEAR {s.size}</span>
-                  <div className="mt-6 space-y-1 text-sm tracking-[0.2em] uppercase text-[#7a715c]">
+                  <div className="absolute top-0 left-0 h-px w-0 bg-[#302621] transition-all duration-500 group-hover:w-full" />
+                  <span className="leading-none text-[#302621]" style={{ fontSize: "clamp(2.5rem,5vw,4rem)", letterSpacing: "0.08em", fontWeight: 400 }}>BEAR {s.size}</span>
+                  <div className="mt-6 space-y-1 text-sm tracking-[0.2em] uppercase text-[#735a4c]">
                     <p>Width: {s.width}</p>
                     <p>Length: 190 mm</p>
                     <p>Flared</p>
