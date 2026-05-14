@@ -358,6 +358,15 @@ export default function Home() {
               </p>
               <SizeTranslator />
             </div>
+            <div className="mt-10 text-center">
+              <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-4">Not sure about your size?</p>
+              <button
+                onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
+                className="text-sm tracking-[0.2em] uppercase border border-[#302621]/30 px-8 py-3 text-[#302621] hover:border-[#302621] transition-all duration-300"
+              >
+                Find Your Perfect Fit
+              </button>
+            </div>
           </div>
 
         </div>
@@ -381,6 +390,12 @@ export default function Home() {
               className="text-sm tracking-[0.2em] uppercase border border-[#735a4c] px-8 py-3 text-[#eae4d7] hover:border-[#eae4d7] transition-all duration-300"
             >
               Subscription Coming Soon
+            </button>
+            <button
+              onClick={() => { setShowOrderModal(true); setOrderTab(1); }}
+              className="text-sm tracking-[0.2em] uppercase text-[#735a4c] hover:text-[#eae4d7] transition-colors duration-300"
+            >
+              Commitment Issues?
             </button>
           </div>
         </div>
