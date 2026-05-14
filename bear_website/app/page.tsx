@@ -377,7 +377,7 @@ export default function Home() {
               Subscribe and get Bear condoms delivered straight to your door — monthly or bimonthly. 12 condoms per delivery, so you&apos;re always stocked without thinking about it.
             </p>
             <p className="text-xs tracking-[0.3em] uppercase text-[#735a4c] mb-8">
-              Subscriptions launching soon
+              Pause anytime · Subscriptions launching soon
             </p>
             <button
               onClick={() => { setShowOrderModal(true); setOrderTab(0); }}
