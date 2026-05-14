@@ -272,7 +272,7 @@ export default function Home() {
             Comfortable Fit · Discreet Packaging · Always Available
           </p>
           <p className="mt-6 max-w-sm text-base text-[#7a715c] leading-relaxed">
-            Nordic minimalism. Swedish safety. Stockholm chique.
+            Nordic minimalism. Swedish safety.
           </p>
           <p className="mt-10 text-xs tracking-[0.5em] uppercase text-[#735a4c]">
             Coming Soon
