@@ -1,0 +1,4608 @@
+[
+  {
+    "id": 0,
+    "age": "43+",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "I felt awkward suggesting it"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Hotel room / minibar",
+      "Supermarket"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 1,
+    "age": "38–43",
+    "gender": "Woman",
+    "orientation": "Bisexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Definitely",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Supermarket"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 2,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "Neither of us had one",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Supermarket",
+      "Restaurant bathroom"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 3,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU",
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Sustainability",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 4,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 5,
+    "age": "33–38",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Sustainability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I can usually buy one when needed"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 6,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Convenience store"
+    ],
+    "decisionFactors": [
+      "Price",
+      "Packaging / design",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I don't like using condoms"
+    ],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "My partner didn't want to use one"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Restaurant bathroom"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Most distinctive"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "Great initiative",
+    "commentTranslated": false
+  },
+  {
+    "id": 7,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Hotel room / minibar"
+    ],
+    "topChoice": "",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks highest quality",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Feels most trustworthy",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 8,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Brand",
+      "Packaging / design"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "I felt awkward suggesting it"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "Looks highest quality",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 9,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "",
+    "topChoiceReasons": [],
+    "topChoiceOtherText": "N",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "To strong identity",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 10,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Packaging / design",
+      "Discretion"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "My partner didn't want to use one"
+    ],
+    "agreeCarryMore": "Definitely",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Most distinctive",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "Looks highest quality",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 11,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't expect to need them"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Most distinctive",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "Dislike the others",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 12,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Greece",
+    "used12mo": "Occasionally",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Discretion"
+    ],
+    "carryFreq": "Often",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Delivery app",
+      "Vending machine"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "I would mostly trust a cleaner \"pharmacy\" look than a stylish look.",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 13,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "Other"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Sex shop"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Packaging / design"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Delivery app",
+      "Other"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Feels most trustworthy",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Feels most trustworthy",
+      "Looks highest quality"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 14,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Never",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Delivery app"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "A",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 15,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Gay / lesbian",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "E",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 16,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Convenience store"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "It feels awkward or embarrassing to carry them"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Convenience store",
+      "Nightclub / bar",
+      "Restaurant bathroom",
+      "Delivery app",
+      "Vending machine"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "I don’t like the other designs",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 17,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other",
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Brand"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "My partner didn't want to use one",
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Nightclub / bar"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Feels most trustworthy",
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "The others feels more male",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Feels most trustworthy",
+      "Most discreet",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 18,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Bisexual",
+    "relationship": "Dating someone",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Sex shop"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Other"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "My partner didn't want to use one",
+      "I didn't think the STI risk was high",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Vending machine"
+    ],
+    "topChoice": "",
+    "topChoiceReasons": [
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Feels most trustworthy"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 19,
+    "age": "33–38",
+    "gender": "Woman",
+    "orientation": "Bisexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't expect to need them"
+    ],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "I felt awkward suggesting it"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 20,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "Other"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Convenience store",
+      "Nightclub / bar",
+      "Restaurant bathroom"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Looks highest quality",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "Don’t know if my answer is the most valuable since I’m in along term relationship (and have been for a while) and use other contraceptives . But the idea is very cool!",
+    "commentTranslated": false
+  },
+  {
+    "id": 21,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "We relied on another form of contraception",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Vending machine"
+    ],
+    "topChoice": "E",
+    "topChoiceReasons": [
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Looks highest quality"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 22,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Convenience store",
+      "Online"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Brand",
+      "Availability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 23,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Dating casually",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Price"
+    ],
+    "carryFreq": "Often",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [],
+    "topChoiceOtherText": "Most fun",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 24,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Netherlands",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex",
+      "I never buy condoms",
+      "I don't remember"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high",
+      "Condoms reduce sensation",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Nightclub / bar",
+      "Vending machine"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Most distinctive",
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 25,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Dominican Republic",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Never",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Discretion"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "It feels awkward or embarrassing to carry them",
+      "I can usually buy one when needed"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "My partner didn't want to use one"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Delivery app"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Most discreet",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Most discreet",
+      "Looks highest quality",
+      "I would feel comfortable carrying it"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 26,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Packaging / design"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Supermarket"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most distinctive",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 27,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner",
+      "When travelling"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "It feels awkward or embarrassing to carry them"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 28,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Dating casually",
+    "country": "Switzerland",
+    "used12mo": "Frequently",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Brand",
+      "Other"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I can usually buy one when needed"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I didn't think the STI risk was high",
+      "Condoms reduce sensation",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Definitely",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Restaurant bathroom"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [],
+    "topChoiceOtherText": "I like the retro playboy feel with a softer edge. Girly colours would be fun too for pop. Great mood for a direction. Current and can be playful with imagery/ fun photoshoots. In turn it makes you feel fun and sexy.",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "I like the imboss and typography - not the black - a little too heavy, bdsm for my interest of purchase.",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 29,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Greece",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Brand"
+    ],
+    "carryFreq": "Always",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Definitely",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Pharmacy"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 30,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Price",
+      "Discretion",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Vending machine"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 31,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "My partner normally has them"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Department store",
+      "Supermarket"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 32,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Gay / lesbian",
+    "relationship": "Single",
+    "country": "Spain",
+    "used12mo": "No",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Looks highest quality",
+      "I would feel comfortable carrying it",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Most distinctive",
+      "Looks highest quality",
+      "I would feel comfortable carrying it",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 33,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Greece",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Packaging / design"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "My partner normally has them"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I didn't think the STI risk was high",
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Delivery app"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "219 SEK or more",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 34,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I don't expect to need them"
+    ],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 35,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Nightclub / bar"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I can usually buy one when needed"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Hotel room / minibar"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 36,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Bisexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Price",
+      "Sustainability"
+    ],
+    "carryFreq": "Often",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "My partner didn't want to use one",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Nightclub / bar"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Looks highest quality",
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "Great idea to have bars sell condoms!",
+    "commentTranslated": false
+  },
+  {
+    "id": 37,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "E",
+    "secondChoiceReasons": [
+      "Most discreet"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 38,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Sustainability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Delivery app"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 39,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 40,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "United States",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other",
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "Looks highest quality",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Looks highest quality",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 41,
+    "age": "Below 23",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "E",
+    "secondChoiceReasons": [
+      "Most discreet"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 42,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Dating casually",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Always",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "My partner didn't want to use one",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Department store",
+      "Convenience store"
+    ],
+    "topChoice": "",
+    "topChoiceReasons": [],
+    "topChoiceOtherText": "I don’t like the brown",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Most discreet",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 43,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Dating someone",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "My partner normally has them",
+      "Other"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "E",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "Don't like the logo, but the colour palette is nice. I like the logo best on C.",
+    "secondChoiceOtherTranslated": true,
+    "maxPrice": "169 SEK",
+    "comment": "The single most important thing for me is a condom that holds up in quality and fits my partner. Fit is the hardest part, I think.",
+    "commentTranslated": true
+  },
+  {
+    "id": 44,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Online"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 45,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "In a long-term relationship",
+      "I always use condoms"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Never",
+    "brandsUsed": [
+      "Durex",
+      "MR SIZE"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I didn't think the STI risk was high",
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Pharmacy",
+      "Fashion / concept store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Most discreet",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Feels most trustworthy",
+      "Most distinctive",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 46,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Delivery app"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks highest quality",
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "I would feel comfortable carrying it"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "I don't really know what condoms cost, so the last question was hard to answer.",
+    "commentTranslated": true
+  },
+  {
+    "id": 47,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Other"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Vending machine"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "",
+    "secondChoiceReasons": [],
+    "secondChoiceOtherText": "Yes",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 48,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "In a long-term relationship"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "My partner normally has them"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Supermarket",
+      "Delivery app"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Most distinctive",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks highest quality",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 49,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Packaging / design"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "My partner normally has them",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't expect to need them",
+      "My partner normally provides them",
+      "I don't want condoms visible at home"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Fashion / concept store",
+      "Vending machine"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Looks highest quality",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Most discreet"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 50,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Syria",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Supermarket",
+      "Convenience store",
+      "Delivery app",
+      "Vending machine"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Looks highest quality"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 51,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Bisexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Online"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Brand"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I would feel comfortable carrying it",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 52,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Lubrication",
+      "Packaging / design",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "My partner normally has them"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I don't expect to need them",
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Supermarket",
+      "Convenience store",
+      "Delivery app"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Most discreet",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 53,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Dating casually",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "My partner normally has them"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "Looks highest quality"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 54,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other",
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Brand",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't expect to need them",
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "Neither of us had one",
+      "My partner didn't want to use one",
+      "I felt awkward suggesting it",
+      "I didn't think the STI risk was high",
+      "Alcohol or drugs affected the decision",
+      "Other"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Delivery app"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Most discreet",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "I felt likt it was branded towards men/gays with the man on the last package. Also it doesnt do with my style.",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "199 SEK",
+    "comment": "My answers might not have been most accurate on some questions regaring why I do not buy condoms, after 5 years in a stable relationship.",
+    "commentTranslated": false
+  },
+  {
+    "id": 55,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Never",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most premium"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 56,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Packaging / design"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't like how condom packaging looks",
+      "It feels awkward or embarrassing to carry them"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "E",
+    "topChoiceReasons": [
+      "Most distinctive",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 57,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "My partner prefers condoms",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU",
+      "Durex",
+      "MR SIZE"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Pharmacy",
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "Other"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Most discreet",
+      "Most distinctive",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Most discreet",
+      "Most distinctive"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 58,
+    "age": "33–38",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "I don't normally use condoms",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Supermarket"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Lubrication",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "C",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 59,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "We relied on another form of contraception",
+      "I didn't think the STI risk was high"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Most discreet",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "F",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "Most discreet",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 60,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Packaging / design",
+      "Discretion"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "I felt awkward suggesting it"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Pharmacy",
+      "Fashion / concept store"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish",
+      "I would be comfortable leaving it visible at home",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 61,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner",
+      "When travelling"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "Other"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Sustainability"
+    ],
+    "carryFreq": "Rarely",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "We relied on another form of contraception",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Supermarket",
+      "Vending machine"
+    ],
+    "topChoice": "",
+    "topChoiceReasons": [],
+    "topChoiceOtherText": "More minimalist?",
+    "topChoiceOtherTranslated": true,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "I would be comfortable leaving it visible at home"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "219 SEK or more",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 62,
+    "age": "28–33",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "Casual sex"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Fit",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Pharmacy",
+      "Nightclub / bar",
+      "Restaurant bathroom",
+      "Delivery app"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I would feel comfortable carrying it",
+      "I would be comfortable leaving it visible at home",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 63,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "In a long-term relationship"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Usually",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Vending machine"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most premium"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 64,
+    "age": "23–28",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "In a long-term relationship"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Lubrication"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't like how condom packaging looks",
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We didn't want to interrupt the moment",
+      "My partner didn't want to use one",
+      "Condoms reduce sensation"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Maybe",
+    "agreePayMore": "Maybe",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Hotel room / minibar",
+      "Delivery app",
+      "Vending machine"
+    ],
+    "topChoice": "F",
+    "topChoiceReasons": [
+      "Feels most trustworthy",
+      "Looks highest quality",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "E",
+    "secondChoiceReasons": [
+      "Most discreet"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 65,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "",
+    "whereBuyNow": [
+      "Other",
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Sometimes",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Definitely",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Convenience store",
+      "Restaurant bathroom",
+      "Delivery app"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "Looks highest quality",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "I would feel comfortable carrying it",
+      "I like the colours",
+      "I like the logo / typography"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 66,
+    "age": "38–43",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "I always use condoms"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Very likely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Sometimes",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Definitely not",
+    "whereWantBuy": [
+      "Brand's own website",
+      "Department store",
+      "Hotel room / minibar",
+      "Nightclub / bar",
+      "Restaurant bathroom"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "A",
+    "secondChoiceReasons": [
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 67,
+    "age": "33–38",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Frequently",
+    "situations": [
+      "With a new partner",
+      "Casual sex",
+      "When travelling",
+      "I always use condoms"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Always",
+    "brandsUsed": [
+      "Durex"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Price",
+      "Availability"
+    ],
+    "carryFreq": "Often",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "We relied on another form of contraception"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Pharmacy"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium",
+      "Most discreet"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Most discreet"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "189 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 68,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Married",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I don't remember"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Pharmacy"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Price"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't expect to need them"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Nightclub / bar"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most premium"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "169 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 69,
+    "age": "Below 23",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "In a relationship",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "Casual sex"
+    ],
+    "mainReason": "Protection against STIs",
+    "likelihood": "Never",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "Both of us",
+    "whereBuyNow": [
+      "Online"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Packaging / design"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't like using condoms",
+      "I don't want condoms visible at home",
+      "I don't like the way the packaging looks"
+    ],
+    "missedMoment": "No",
+    "whyMissed": [],
+    "agreeCarryMore": "Probably not",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Definitely",
+    "whereWantBuy": [
+      "Department store",
+      "Pharmacy",
+      "Supermarket"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Most discreet",
+      "Looks highest quality",
+      "I would be comfortable leaving it visible at home"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "D",
+    "secondChoiceReasons": [
+      "Looks most premium",
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 70,
+    "age": "28–33",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Living with a partner",
+    "country": "Sweden",
+    "used12mo": "Once or twice",
+    "situations": [
+      "With a new partner"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Likely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [
+      "Not applicable"
+    ],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Availability"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't expect to need one"
+    ],
+    "homeFreq": "Rarely",
+    "whyNotHome": [
+      "I'm in a relationship and use another contraceptive method"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "Neither of us had one"
+    ],
+    "agreeCarryMore": "Definitely not",
+    "agreeHomeMore": "Definitely not",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Nightclub / bar"
+    ],
+    "topChoice": "A",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 71,
+    "age": "33–38",
+    "gender": "Woman",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "No",
+    "situations": [
+      "Other"
+    ],
+    "mainReason": "Pregnancy prevention",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "I never buy condoms"
+    ],
+    "whoBuys": "My partner",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Fit",
+      "Lubrication",
+      "Packaging / design"
+    ],
+    "carryFreq": "Never",
+    "whyNotCarry": [
+      "I don't use condoms often"
+    ],
+    "homeFreq": "Never",
+    "whyNotHome": [
+      "I don't like using condoms"
+    ],
+    "missedMoment": "Yes, once or twice",
+    "whyMissed": [
+      "We didn't want to interrupt the moment"
+    ],
+    "agreeCarryMore": "Probably",
+    "agreeHomeMore": "Probably",
+    "agreePayMore": "Probably",
+    "whereWantBuy": [
+      "Hotel room / minibar",
+      "Pharmacy",
+      "Supermarket",
+      "Convenience store",
+      "Fashion / concept store"
+    ],
+    "topChoice": "D",
+    "topChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "B",
+    "secondChoiceReasons": [
+      "Looks most stylish"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "Less than 129 SEK",
+    "comment": "",
+    "commentTranslated": false
+  },
+  {
+    "id": 72,
+    "age": "23–28",
+    "gender": "Man",
+    "orientation": "Heterosexual",
+    "relationship": "Single",
+    "country": "Sweden",
+    "used12mo": "Occasionally",
+    "situations": [
+      "With a new partner",
+      "When travelling"
+    ],
+    "mainReason": "Both STI and pregnancy protection",
+    "likelihood": "Rarely",
+    "brandsUsed": [
+      "RFSU"
+    ],
+    "whoBuys": "Me",
+    "whereBuyNow": [],
+    "decisionFactors": [
+      "Safety / trust",
+      "Fit",
+      "Brand"
+    ],
+    "carryFreq": "Always",
+    "whyNotCarry": [],
+    "homeFreq": "Always",
+    "whyNotHome": [],
+    "missedMoment": "Yes, several times",
+    "whyMissed": [
+      "Neither of us had one",
+      "We didn't want to interrupt the moment",
+      "I felt awkward suggesting it",
+      "Alcohol or drugs affected the decision"
+    ],
+    "agreeCarryMore": "Maybe",
+    "agreeHomeMore": "Probably not",
+    "agreePayMore": "Probably not",
+    "whereWantBuy": [
+      "Supermarket",
+      "Convenience store"
+    ],
+    "topChoice": "B",
+    "topChoiceReasons": [
+      "Looks most stylish",
+      "Feels most trustworthy",
+      "Looks highest quality"
+    ],
+    "topChoiceOtherText": "",
+    "topChoiceOtherTranslated": false,
+    "secondChoice": "C",
+    "secondChoiceReasons": [
+      "Looks most stylish",
+      "I would feel comfortable carrying it",
+      "I like the colours"
+    ],
+    "secondChoiceOtherText": "",
+    "secondChoiceOtherTranslated": false,
+    "maxPrice": "149 SEK",
+    "comment": "",
+    "commentTranslated": false
+  }
+]
